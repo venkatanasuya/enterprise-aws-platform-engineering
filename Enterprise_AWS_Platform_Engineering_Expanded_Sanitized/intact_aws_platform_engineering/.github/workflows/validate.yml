@@ -1,0 +1,17 @@
+name: Validate Reference
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Terraform format check
+        uses: hashicorp/setup-terraform@v4
+      - name: Basic secret-pattern scan
+        run: |
+          ! grep -RniE --exclude-dir=.git 'AKIA[0-9A-Z]{16}|BEGIN PRIVATE KEY|BEGIN RSA PRIVATE KEY' .

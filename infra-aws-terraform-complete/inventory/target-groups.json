@@ -1,0 +1,90 @@
+{
+    "TargetGroups": [
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:targetgroup/ConstructionCapacity-api-dev-tg/708b4401e481e7d6",
+            "TargetGroupName": "ConstructionCapacity-api-dev-tg",
+            "Protocol": "TCP",
+            "Port": 80,
+            "VpcId": "vpc-056be321b2abea9e8",
+            "HealthCheckProtocol": "TCP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 10,
+            "HealthyThresholdCount": 3,
+            "UnhealthyThresholdCount": 3,
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-2:401157580704:loadbalancer/net/ConstructionCapacity-api-dev-nlb/b9f62a0723a6ad66"
+            ],
+            "TargetType": "instance",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:targetgroup/awseb-AWSEB-5UND5OGLI120/41c91f107e497aa9",
+            "TargetGroupName": "awseb-AWSEB-5UND5OGLI120",
+            "Protocol": "HTTP",
+            "Port": 80,
+            "VpcId": "vpc-0773253bc4daca414",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 15,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 3,
+            "UnhealthyThresholdCount": 5,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-2:401157580704:loadbalancer/app/awseb-AWSEB-15YB24HYGYPZE/acee8aa2180f09e0"
+            ],
+            "TargetType": "instance",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:targetgroup/awseb-AWSEB-C3UCIMXXGWE1/de2c3a618de420cc",
+            "TargetGroupName": "awseb-AWSEB-C3UCIMXXGWE1",
+            "Protocol": "HTTP",
+            "Port": 80,
+            "VpcId": "vpc-056be321b2abea9e8",
+            "HealthCheckProtocol": "HTTP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 15,
+            "HealthCheckTimeoutSeconds": 5,
+            "HealthyThresholdCount": 3,
+            "UnhealthyThresholdCount": 5,
+            "HealthCheckPath": "/",
+            "Matcher": {
+                "HttpCode": "200"
+            },
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-2:401157580704:loadbalancer/app/awseb-AWSEB-ZO7QRX88VT24/c0eb7e5c284721e3"
+            ],
+            "TargetType": "instance",
+            "ProtocolVersion": "HTTP1",
+            "IpAddressType": "ipv4"
+        },
+        {
+            "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:targetgroup/constructionCapacity-api-prod-tg/362bc45903cfb60e",
+            "TargetGroupName": "constructionCapacity-api-prod-tg",
+            "Protocol": "TCP",
+            "Port": 80,
+            "VpcId": "vpc-0773253bc4daca414",
+            "HealthCheckProtocol": "TCP",
+            "HealthCheckPort": "traffic-port",
+            "HealthCheckEnabled": true,
+            "HealthCheckIntervalSeconds": 30,
+            "HealthCheckTimeoutSeconds": 10,
+            "HealthyThresholdCount": 3,
+            "UnhealthyThresholdCount": 3,
+            "LoadBalancerArns": [
+                "arn:aws:elasticloadbalancing:us-east-2:401157580704:loadbalancer/net/constructioncapacityapi-prod-nlb/e9184833c2c1b7fc"
+            ],
+            "TargetType": "instance",
+            "IpAddressType": "ipv4"
+        }
+    ]
+}

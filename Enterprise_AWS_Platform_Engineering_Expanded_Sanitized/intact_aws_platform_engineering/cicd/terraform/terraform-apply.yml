@@ -1,0 +1,26 @@
+name: Terraform Apply
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::<AWS_ACCOUNT_ID>:role/<WORKLOAD_ROLE>
+          aws-region: <AWS_REGION>
+          audience: sts.amazonaws.com
+
+      - uses: hashicorp/setup-terraform@v4
+      - run: terraform init
+      - run: terraform apply -auto-approve

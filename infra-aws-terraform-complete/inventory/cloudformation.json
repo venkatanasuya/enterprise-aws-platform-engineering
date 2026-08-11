@@ -1,0 +1,460 @@
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-2:401157580704:stack/valuemomentum-cmp-tool/88b578b0-1eba-11f0-b621-025391c6f827",
+            "StackName": "valuemomentum-cmp-tool",
+            "Description": "Creates a new IAM role for your AWS Master account with ReadOnlyAccess permissions needed for CloudOps, Finops & SecOps Bundle",
+            "Parameters": [
+                {
+                    "ParameterKey": "RoleName",
+                    "ParameterValue": "intact-cmp-tool"
+                },
+                {
+                    "ParameterKey": "ExternalId",
+                    "ParameterValue": "costreport"
+                },
+                {
+                    "ParameterKey": "ConfigPermissionInclude",
+                    "ParameterValue": "Allow"
+                },
+                {
+                    "ParameterKey": "CoreStackAccountId",
+                    "ParameterValue": "770439906488"
+                },
+                {
+                    "ParameterKey": "AWSCostAndUsageReportCURBucketName",
+                    "ParameterValue": "intact-cost-and-usage-report-cur-bucket"
+                },
+                {
+                    "ParameterKey": "EnforceMFA",
+                    "ParameterValue": "false"
+                }
+            ],
+            "CreationTime": "2025-04-21T14:11:35.666000+00:00",
+            "LastUpdatedTime": "2026-02-24T13:27:56.606000+00:00",
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackStatus": "UPDATE_ROLLBACK_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Capabilities": [
+                "CAPABILITY_NAMED_IAM"
+            ],
+            "Outputs": [
+                {
+                    "OutputKey": "ExternalId",
+                    "OutputValue": "costreport",
+                    "Description": "ExternalId used in Role trusted policy."
+                },
+                {
+                    "OutputKey": "MFAEnabled",
+                    "OutputValue": "false",
+                    "Description": "Flag to identify MFA enforced for the role or not."
+                },
+                {
+                    "OutputKey": "RoleARN",
+                    "OutputValue": "arn:aws:iam::401157580704:role/intact-cmp-tool",
+                    "Description": "ARN of the IAM Role."
+                }
+            ],
+            "RoleARN": "arn:aws:iam::401157580704:role/AWS-QuickSetup-StackSet-Local-AdministrationRole",
+            "Tags": [],
+            "EnableTerminationProtection": true,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "ROLLBACK",
+                    "OperationId": "51b68a18-0b6e-4121-91a7-5089a28ad5d4"
+                },
+                {
+                    "OperationType": "UPDATE_STACK",
+                    "OperationId": "3c716a3b-fa60-4a1b-b7ce-21d54beb94ad"
+                }
+            ]
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-2:401157580704:stack/intact-security-hub-findings-summary/59bdf9e0-dc6a-11ed-b38c-06056fa4bb13",
+            "StackName": "intact-security-hub-findings-summary",
+            "Description": "Security Hub Recurring Summary. Sends email notifications with a summary of the security findings.  This template creates Security Hub Custom Insights, Lambda function for delivery, SNS Topic, and needed IAM roles.  ",
+            "Parameters": [
+                {
+                    "ParameterKey": "S3BucketName",
+                    "ParameterValue": "intact-security-hub-findings-prg-py"
+                },
+                {
+                    "ParameterKey": "S3KeyName",
+                    "ParameterValue": "security-hub-mail.zip"
+                },
+                {
+                    "ParameterKey": "EmailAddress",
+                    "ParameterValue": "sacharya@intactinsurance.com"
+                },
+                {
+                    "ParameterKey": "RecurringScheduleCron",
+                    "ParameterValue": "cron(0 9 ? * 6 *)"
+                }
+            ],
+            "CreationTime": "2023-04-16T15:21:24.994000+00:00",
+            "LastUpdatedTime": "2023-11-21T06:42:45.256000+00:00",
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackStatus": "UPDATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [
+                "arn:aws:sns:us-east-2:401157580704:Cloud_Formation_Event_Notification"
+            ],
+            "Capabilities": [
+                "CAPABILITY_IAM"
+            ],
+            "Tags": [],
+            "EnableTerminationProtection": true,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-2:401157580704:stack/nydfs/4d73d710-6f44-11ed-9971-06ac4b73858e",
+            "StackName": "nydfs",
+            "Parameters": [
+                {
+                    "ParameterKey": "S3AccountLevelPublicAccessBlocksPeriodicParamBlockPublicAcls",
+                    "ParameterValue": "TRUE"
+                },
+                {
+                    "ParameterKey": "S3AccountLevelPublicAccessBlocksPeriodicParamRestrictPublicBuckets",
+                    "ParameterValue": "TRUE"
+                },
+                {
+                    "ParameterKey": "AcmCertificateExpirationCheckParamDaysToExpiration",
+                    "ParameterValue": "90"
+                },
+                {
+                    "ParameterKey": "BackupPlanMinFrequencyAndMinRetentionCheckParamRequiredFrequencyUnit",
+                    "ParameterValue": "days"
+                },
+                {
+                    "ParameterKey": "IamPasswordPolicyParamMaxPasswordAge",
+                    "ParameterValue": "90"
+                },
+                {
+                    "ParameterKey": "BackupPlanMinFrequencyAndMinRetentionCheckParamRequiredRetentionDays",
+                    "ParameterValue": "35"
+                },
+                {
+                    "ParameterKey": "VpcSgOpenOnlyToAuthorizedPortsParamAuthorizedTcpPorts",
+                    "ParameterValue": "443"
+                },
+                {
+                    "ParameterKey": "CwLoggroupRetentionPeriodCheckParamMinRetentionTime",
+                    "ParameterValue": "1827"
+                },
+                {
+                    "ParameterKey": "IamPasswordPolicyParamPasswordReusePrevention",
+                    "ParameterValue": "24"
+                },
+                {
+                    "ParameterKey": "RestrictedIncomingTrafficParamBlockedPort1",
+                    "ParameterValue": "20"
+                },
+                {
+                    "ParameterKey": "S3AccountLevelPublicAccessBlocksPeriodicParamBlockPublicPolicy",
+                    "ParameterValue": "TRUE"
+                },
+                {
+                    "ParameterKey": "RestrictedIncomingTrafficParamBlockedPort3",
+                    "ParameterValue": "3389"
+                },
+                {
+                    "ParameterKey": "IamPasswordPolicyParamRequireLowercaseCharacters",
+                    "ParameterValue": "true"
+                },
+                {
+                    "ParameterKey": "RestrictedIncomingTrafficParamBlockedPort2",
+                    "ParameterValue": "21"
+                },
+                {
+                    "ParameterKey": "IamPasswordPolicyParamMinimumPasswordLength",
+                    "ParameterValue": "14"
+                },
+                {
+                    "ParameterKey": "IamUserUnusedCredentialsCheckParamMaxCredentialUsageAge",
+                    "ParameterValue": "90"
+                },
+                {
+                    "ParameterKey": "BackupPlanMinFrequencyAndMinRetentionCheckParamRequiredFrequencyValue",
+                    "ParameterValue": "1"
+                },
+                {
+                    "ParameterKey": "IamPasswordPolicyParamRequireNumbers",
+                    "ParameterValue": "true"
+                },
+                {
+                    "ParameterKey": "RestrictedIncomingTrafficParamBlockedPort5",
+                    "ParameterValue": "4333"
+                },
+                {
+                    "ParameterKey": "RestrictedIncomingTrafficParamBlockedPort4",
+                    "ParameterValue": "3306"
+                },
+                {
+                    "ParameterKey": "IamPasswordPolicyParamRequireSymbols",
+                    "ParameterValue": "true"
+                },
+                {
+                    "ParameterKey": "AccessKeysRotatedParamMaxAccessKeyAge",
+                    "ParameterValue": "90"
+                },
+                {
+                    "ParameterKey": "IamPasswordPolicyParamRequireUppercaseCharacters",
+                    "ParameterValue": "true"
+                },
+                {
+                    "ParameterKey": "S3AccountLevelPublicAccessBlocksPeriodicParamIgnorePublicAcls",
+                    "ParameterValue": "TRUE"
+                }
+            ],
+            "CreationTime": "2022-11-28T17:44:26.819000+00:00",
+            "LastUpdatedTime": "2023-11-21T06:43:44.090000+00:00",
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackStatus": "UPDATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [
+                "arn:aws:sns:us-east-2:401157580704:Cloud_Formation_Event_Notification"
+            ],
+            "Tags": [
+                {
+                    "Key": "AppManagerCFNStackKey",
+                    "Value": "arn:aws:cloudformation:us-east-2:401157580704:stack/nydfs/4d73d710-6f44-11ed-9971-06ac4b73858e"
+                }
+            ],
+            "EnableTerminationProtection": true,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-2:401157580704:stack/awseb-e-t2wrbbxesn-stack/1f261940-180f-11ed-ba75-06dae90ac7d2",
+            "StackName": "awseb-e-t2wrbbxesn-stack",
+            "Description": "AWS Elastic Beanstalk environment (Name: 'Prodconstructioncapacityapi-env'  Id: 'e-t2wrbbxesn')",
+            "Parameters": [
+                {
+                    "ParameterKey": "InstanceTypeFamily",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "LogPublicationControl",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "InstancePort",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "XRayEnabled",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "AWSEBEnvironmentId",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "HooksPkgUrl",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "AWSEBEnvironmentName",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "AWSEBReferrerId",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "AppSource",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "ProxyServer",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "EnvironmentVariables",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "AWSEBAgentId",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "InstanceType",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "AWSEBEnvironmentBucket",
+                    "ParameterValue": "****"
+                }
+            ],
+            "CreationTime": "2022-08-09T18:14:34.605000+00:00",
+            "LastUpdatedTime": "2026-06-17T10:58:04.535000+00:00",
+            "RollbackConfiguration": {},
+            "StackStatus": "UPDATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Capabilities": [
+                "CAPABILITY_IAM"
+            ],
+            "Tags": [
+                {
+                    "Key": "Owner",
+                    "Value": "Krishnachandran"
+                },
+                {
+                    "Key": "elasticbeanstalk:environment-name",
+                    "Value": "Prodconstructioncapacityapi-env"
+                },
+                {
+                    "Key": "elasticbeanstalk:environment-id",
+                    "Value": "e-t2wrbbxesn"
+                },
+                {
+                    "Key": "Created By",
+                    "Value": "Liju"
+                },
+                {
+                    "Key": "Env",
+                    "Value": "Prod env"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "Prodconstructioncapacityapi-env"
+                }
+            ],
+            "EnableTerminationProtection": true,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "UPDATE_STACK",
+                    "OperationId": "6a3ca4d0-6a3b-11f1-83cd-02d1dc0905eb"
+                }
+            ]
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-2:401157580704:stack/awseb-e-rf8gah3j8s-stack/065e95a0-6968-11ec-98c9-0668cf9a3434",
+            "StackName": "awseb-e-rf8gah3j8s-stack",
+            "Description": "AWS Elastic Beanstalk environment (Name: 'construction-capacity-api-dev-env'  Id: 'e-rf8gah3j8s')",
+            "Parameters": [
+                {
+                    "ParameterKey": "InstanceTypeFamily",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "LogPublicationControl",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "InstancePort",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "XRayEnabled",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "AWSEBEnvironmentId",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "HooksPkgUrl",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "AWSEBEnvironmentName",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "AWSEBReferrerId",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "AppSource",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "ProxyServer",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "EnvironmentVariables",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "AWSEBAgentId",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "InstanceType",
+                    "ParameterValue": "****"
+                },
+                {
+                    "ParameterKey": "AWSEBEnvironmentBucket",
+                    "ParameterValue": "****"
+                }
+            ],
+            "CreationTime": "2021-12-30T12:00:04.794000+00:00",
+            "LastUpdatedTime": "2026-06-17T10:38:27.798000+00:00",
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackStatus": "UPDATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [
+                "arn:aws:sns:us-east-2:401157580704:Cloud_Formation_Event_Notification"
+            ],
+            "Capabilities": [
+                "CAPABILITY_IAM"
+            ],
+            "Tags": [
+                {
+                    "Key": "environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "elasticbeanstalk:environment-name",
+                    "Value": "construction-capacity-api-dev-env"
+                },
+                {
+                    "Key": "AppManagerCFNStackKey",
+                    "Value": "arn:aws:cloudformation:us-east-2:401157580704:stack/awseb-e-rf8gah3j8s-stack/065e95a0-6968-11ec-98c9-0668cf9a3434"
+                },
+                {
+                    "Key": "elasticbeanstalk:environment-id",
+                    "Value": "e-rf8gah3j8s"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "construction-capacity-api-dev-env"
+                }
+            ],
+            "EnableTerminationProtection": true,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            },
+            "LastOperations": [
+                {
+                    "OperationType": "UPDATE_STACK",
+                    "OperationId": "acd885a0-6a38-11f1-bed8-0aa6765bb09f"
+                }
+            ]
+        }
+    ]
+}
+ 
+ 

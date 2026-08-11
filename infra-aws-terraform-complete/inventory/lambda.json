@@ -1,0 +1,501 @@
+{
+    "Functions": [
+        {
+            "FunctionName": "Weekly_Resource_Inventory",
+            "FunctionArn": "arn:aws:lambda:us-east-2:401157580704:function:Weekly_Resource_Inventory",
+            "Runtime": "python3.11",
+            "Role": "arn:aws:iam::401157580704:role/Weekly_Resource_Inventory",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 1541,
+            "Description": "",
+            "Timeout": 183,
+            "MemorySize": 128,
+            "LastModified": "2026-06-15T12:11:01.000+0000",
+            "CodeSha256": "U42OI/lBhqsyLWqTNYeqFCzKuWMDI2uQxnaqjX7nPRI=",
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SubnetIds": [],
+                "SecurityGroupIds": [],
+                "VpcId": "",
+                "Ipv6AllowedForDualStack": false
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "ec3dc248-58bf-4900-9796-de6362ad8fc7",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/Weekly_Resource_Inventory"
+            }
+        },
+        {
+            "FunctionName": "Secretsmanager-key-rotation-lambda",
+            "FunctionArn": "arn:aws:lambda:us-east-2:401157580704:function:Secretsmanager-key-rotation-lambda",
+            "Runtime": "python3.14",
+            "Role": "arn:aws:iam::401157580704:role/service-role/Secretsmanager-key-rotation-lambda-role-fr0zw7k2",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 299,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2026-02-19T10:44:49.000+0000",
+            "CodeSha256": "R6fL2f5y9xHPTo4NojRtY2hz04DlAxWgwXm4xSMnwRQ=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "346b6c2f-aa6e-4a56-bcef-105eb21b6052",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/Secretsmanager-key-rotation-lambda"
+            }
+        },
+        {
+            "FunctionName": "DevConstructionLambdaFunc",
+            "FunctionArn": "arn:aws:lambda:us-east-2:401157580704:function:DevConstructionLambdaFunc",
+            "Runtime": "python3.11",
+            "Role": "arn:aws:iam::401157580704:role/construction_capacity_jobs_role",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 997,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2026-01-28T20:16:06.000+0000",
+            "CodeSha256": "An2NoYSg/JpsxVazNKEFcH9kqjOlPt9s75JCkZ478S8=",
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SubnetIds": [
+                    "subnet-0f50257b665d9cc1b",
+                    "subnet-0bbffd1611e131f53"
+                ],
+                "SecurityGroupIds": [
+                    "sg-0997987b6834efa73"
+                ],
+                "VpcId": "vpc-056be321b2abea9e8",
+                "Ipv6AllowedForDualStack": false
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "22d60004-d4e5-40b5-8add-0ee6b6dd9b2e",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/DevConstructionLambdaFunc"
+            }
+        },
+        {
+            "FunctionName": "AWS_Lambda-APIGateway",
+            "FunctionArn": "arn:aws:lambda:us-east-2:401157580704:function:AWS_Lambda-APIGateway",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::401157580704:role/AWS_Lambda_APIGateway",
+            "Handler": "index.handler",
+            "CodeSize": 295,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2026-01-28T20:17:06.000+0000",
+            "CodeSha256": "q8E7Nexf5xxhKT9/d4bGpAYOXJYFAUjJ0UDj8OivK8E=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "9d501d67-9be2-48b2-9d05-2c5246a4a2ad",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/AWS_Lambda-APIGateway"
+            }
+        },
+        {
+            "FunctionName": "SecurityHubProcessor",
+            "FunctionArn": "arn:aws:lambda:us-east-2:401157580704:function:SecurityHubProcessor",
+            "Runtime": "python3.13",
+            "Role": "arn:aws:iam::401157580704:role/service-role/SecurityHubProcessor-role-ib304swr",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 2197,
+            "Description": "",
+            "Timeout": 30,
+            "MemorySize": 128,
+            "LastModified": "2026-02-04T18:20:38.000+0000",
+            "CodeSha256": "kviGxuaWtApfYnRLwaxE9YtS/Y51wrFoUxfJuSBjOlo=",
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SubnetIds": [],
+                "SecurityGroupIds": [],
+                "VpcId": "",
+                "Ipv6AllowedForDualStack": false
+            },
+            "Environment": {
+                "Variables": {
+                    "SNS_TOPIC_ARN": "arn:aws:sns:us-east-2:401157580704:SecurityHubAlerts"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "abeb58fd-1e82-4a39-a97e-1f32ae907916",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/SecurityHubProcessor"
+            }
+        },
+        {
+            "FunctionName": "AWS-Glue-state-custom-email",
+            "FunctionArn": "arn:aws:lambda:us-east-2:401157580704:function:AWS-Glue-state-custom-email",
+            "Runtime": "python3.13",
+            "Role": "arn:aws:iam::401157580704:role/service-role/AWS-Glue-state-custom-email-role-sl90xr1e",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 795,
+            "Description": "",
+            "Timeout": 60,
+            "MemorySize": 128,
+            "LastModified": "2026-01-28T20:13:42.000+0000",
+            "CodeSha256": "8FO7sATOU462A3FfmqE3xbUpgXYMac/4bHMxMpx0cVc=",
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SubnetIds": [
+                    "subnet-0f50257b665d9cc1b",
+                    "subnet-0bbffd1611e131f53"
+                ],
+                "SecurityGroupIds": [
+                    "sg-02a5358cd707eee5c"
+                ],
+                "VpcId": "vpc-056be321b2abea9e8",
+                "Ipv6AllowedForDualStack": false
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "9159bc30-9b57-494c-aced-a668d7b6a790",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/AWS-Glue-state-custom-email"
+            }
+        },
+        {
+            "FunctionName": "SendSecurityHubSummaryEmail",
+            "FunctionArn": "arn:aws:lambda:us-east-2:401157580704:function:SendSecurityHubSummaryEmail",
+            "Runtime": "python3.14",
+            "Role": "arn:aws:iam::401157580704:role/intact-security-hub-findi-SendEmailLambdaExecution-24KU1MYOYMVL",
+            "Handler": "index.lambda_handler",
+            "CodeSize": 1771,
+            "Description": "",
+            "Timeout": 30,
+            "MemorySize": 128,
+            "LastModified": "2026-01-28T20:15:27.000+0000",
+            "CodeSha256": "sPgQwGSdPUbBFJUwZCOQ57F0YDW2ds87izIm7RJU2Qc=",
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SubnetIds": [
+                    "subnet-0f50257b665d9cc1b",
+                    "subnet-0bbffd1611e131f53"
+                ],
+                "SecurityGroupIds": [
+                    "sg-02a5358cd707eee5c"
+                ],
+                "VpcId": "vpc-056be321b2abea9e8",
+                "Ipv6AllowedForDualStack": false
+            },
+            "Environment": {
+                "Variables": {
+                    "ARNInsight07": "arn:aws:securityhub:us-east-2:401157580704:insight/401157580704/custom/ad0abe6c-b41a-4c0d-a646-e0244de759d2",
+                    "ARNInsight06": "arn:aws:securityhub:us-east-2:401157580704:insight/401157580704/custom/dd650e56-82d7-4d64-967f-784c6d900cb4",
+                    "ARNInsight05": "arn:aws:securityhub:us-east-2:401157580704:insight/401157580704/custom/2ae2ca4b-4eba-4657-a476-daa7cf672cd4",
+                    "ARNInsight04": "arn:aws:securityhub:us-east-2:401157580704:insight/401157580704/custom/7a3878d8-c282-4e5b-924b-6397467b34b4",
+                    "ARNInsight03": "arn:aws:securityhub:us-east-2:401157580704:insight/401157580704/custom/7fae2491-302a-4f94-8948-02b7d56b965b",
+                    "ARNInsight02": "arn:aws:securityhub:us-east-2:401157580704:insight/401157580704/custom/742eb121-4bdf-4f1b-8a2b-f04f88be6c10",
+                    "SNSTopic": "arn:aws:sns:us-east-2:401157580704:INTACT_Security_hub_summary",
+                    "ARNInsight01": "arn:aws:securityhub:us-east-2:401157580704:insight/401157580704/custom/8adc35eb-3ea4-4fa6-8e92-6676669ef96f"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "455ac590-0ce1-4399-b4a4-52e10094d8f5",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/SendSecurityHubSummaryEmail"
+            }
+        },
+        {
+            "FunctionName": "Consolelogin_authentication_failures",
+            "FunctionArn": "arn:aws:lambda:us-east-2:401157580704:function:Consolelogin_authentication_failures",
+            "Runtime": "python3.13",
+            "Role": "arn:aws:iam::401157580704:role/service-role/Consolelogin_authentication_failures-role-f8qvnkld",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 1154,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2026-01-28T20:12:54.000+0000",
+            "CodeSha256": "Uyf9DKYvd3cMkj8Hzzb/2HkB9W2hMMzZvAjf+iQBVCI=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "b58e5cb3-e80e-486b-b5fb-6027781b6590",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/Consolelogin_authentication_failures"
+            }
+        },
+        {
+            "FunctionName": "Custom-email-for-EC2-and-RDS",
+            "FunctionArn": "arn:aws:lambda:us-east-2:401157580704:function:Custom-email-for-EC2-and-RDS",
+            "Runtime": "python3.13",
+            "Role": "arn:aws:iam::401157580704:role/service-role/Custom-email-for-EC2-and-RDS-role-uti6gop0",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 1254,
+            "Description": "",
+            "Timeout": 123,
+            "MemorySize": 128,
+            "LastModified": "2026-01-28T20:18:13.000+0000",
+            "CodeSha256": "+8EXtu1N99rgS/LB8weBZ+hzFB9VwY9/Dmw0HPxJj5g=",
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SubnetIds": [
+                    "subnet-0f46b98038512ea32",
+                    "subnet-0af3fca3903c44b7e"
+                ],
+                "SecurityGroupIds": [
+                    "sg-080f28d7569af1b80"
+                ],
+                "VpcId": "vpc-0773253bc4daca414",
+                "Ipv6AllowedForDualStack": false
+            },
+            "Environment": {
+                "Variables": {
+                    "SNS_TOPIC_ARN": "arn:aws:sns:us-east-2:401157580704:INTACT_RDS_ark-construction-db-prod_CPUUtilization_PSteam",
+                    "AWS_ACCOUNT_ID": "401157580704"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "5dcadda6-de41-4c06-b1db-34e9dcd23574",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/Custom-email-for-EC2-and-RDS"
+            }
+        },
+        {
+            "FunctionName": "intact-security-hub-finding-CustomInsightsFunction-FrvVUFetZhGd",
+            "FunctionArn": "arn:aws:lambda:us-east-2:401157580704:function:intact-security-hub-finding-CustomInsightsFunction-FrvVUFetZhGd",
+            "Runtime": "nodejs22.x",
+            "Role": "arn:aws:iam::401157580704:role/intact-security-hub-findi-CustomInsightsLambdaExec-SOLDDF0RE1OD",
+            "Handler": "index.handler",
+            "CodeSize": 3011,
+            "Description": "",
+            "Timeout": 30,
+            "MemorySize": 128,
+            "LastModified": "2026-01-28T20:17:35.000+0000",
+            "CodeSha256": "4gcwitPFyIpm6DQjkyJcR/pAGWULm6S/1II1+xwceLc=",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "b6a4f154-94e6-45d4-a5f4-d9839eaa40de",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/intact-security-hub-finding-CustomInsightsFunction-FrvVUFetZhGd"
+            }
+        },
+        {
+            "FunctionName": "Construction-job-trigger-prod",
+            "FunctionArn": "arn:aws:lambda:us-east-2:401157580704:function:Construction-job-trigger-prod",
+            "Runtime": "python3.11",
+            "Role": "arn:aws:iam::401157580704:role/construction_capacity_jobs_role",
+            "Handler": "lambda_function.lambda_handler",
+            "CodeSize": 900,
+            "Description": "",
+            "Timeout": 900,
+            "MemorySize": 512,
+            "LastModified": "2026-01-28T20:18:46.000+0000",
+            "CodeSha256": "CJW9dlQGP9ri4STnvffSNSiFHNTJVKtIrv2O9Ejl95M=",
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SubnetIds": [
+                    "subnet-0f46b98038512ea32",
+                    "subnet-0af3fca3903c44b7e"
+                ],
+                "SecurityGroupIds": [
+                    "sg-0ed15004f60fe5ddf"
+                ],
+                "VpcId": "vpc-0773253bc4daca414",
+                "Ipv6AllowedForDualStack": false
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "675fe3eb-74b4-42d3-8266-066c048fee92",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/Construction-job-trigger-prod"
+            }
+        },
+        {
+            "FunctionName": "SNS_Delivery_Status_Logging",
+            "FunctionArn": "arn:aws:lambda:us-east-2:401157580704:function:SNS_Delivery_Status_Logging",
+            "Runtime": "nodejs24.x",
+            "Role": "arn:aws:iam::401157580704:role/service-role/SNS_Delivery_Status_Logging-role-tp5l4bc6",
+            "Handler": "index.handler",
+            "CodeSize": 295,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2026-05-05T10:05:46.000+0000",
+            "CodeSha256": "q8E7Nexf5xxhKT9/d4bGpAYOXJYFAUjJ0UDj8OivK8E=",
+            "Version": "$LATEST",
+            "VpcConfig": {
+                "SubnetIds": [
+                    "subnet-0f50257b665d9cc1b",
+                    "subnet-0bbffd1611e131f53"
+                ],
+                "SecurityGroupIds": [
+                    "sg-02a5358cd707eee5c"
+                ],
+                "VpcId": "vpc-056be321b2abea9e8",
+                "Ipv6AllowedForDualStack": false
+            },
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "0fc7445d-d761-432c-9f28-a9ecbdb4da95",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            },
+            "LoggingConfig": {
+                "LogFormat": "Text",
+                "LogGroup": "/aws/lambda/SNS_Delivery_Status_Logging"
+            }
+        }
+    ]
+}

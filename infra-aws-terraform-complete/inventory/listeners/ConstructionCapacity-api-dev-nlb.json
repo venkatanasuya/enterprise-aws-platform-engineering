@@ -1,0 +1,36 @@
+{
+    "Listeners": [
+        {
+            "ListenerArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:listener/net/ConstructionCapacity-api-dev-nlb/b9f62a0723a6ad66/64fdc05cb7c7be31",
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:loadbalancer/net/ConstructionCapacity-api-dev-nlb/b9f62a0723a6ad66",
+            "Port": 443,
+            "Protocol": "TLS",
+            "Certificates": [
+                {
+                    "CertificateArn": "arn:aws:acm:us-east-2:401157580704:certificate/7c714e89-7601-4b97-b8d6-d39456df0912"
+                }
+            ],
+            "SslPolicy": "ELBSecurityPolicy-TLS13-1-2-Res-2021-06",
+            "DefaultActions": [
+                {
+                    "Type": "forward",
+                    "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:targetgroup/ConstructionCapacity-api-dev-tg/708b4401e481e7d6",
+                    "Order": 1,
+                    "ForwardConfig": {
+                        "TargetGroups": [
+                            {
+                                "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:targetgroup/ConstructionCapacity-api-dev-tg/708b4401e481e7d6",
+                                "Weight": 1
+                            }
+                        ],
+                        "TargetGroupStickinessConfig": {
+                            "Enabled": false
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
+ 
+ 

@@ -1,0 +1,40 @@
+{
+    "Listeners": [
+        {
+            "ListenerArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:listener/app/awseb-AWSEB-15YB24HYGYPZE/acee8aa2180f09e0/b1ae50cb623e83d7",
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:loadbalancer/app/awseb-AWSEB-15YB24HYGYPZE/acee8aa2180f09e0",
+            "Port": 443,
+            "Protocol": "HTTPS",
+            "Certificates": [
+                {
+                    "CertificateArn": "arn:aws:acm:us-east-2:401157580704:certificate/7c714e89-7601-4b97-b8d6-d39456df0912"
+                }
+            ],
+            "SslPolicy": "ELBSecurityPolicy-TLS13-1-2-Res-2021-06",
+            "DefaultActions": [
+                {
+                    "Type": "forward",
+                    "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:targetgroup/awseb-AWSEB-5UND5OGLI120/41c91f107e497aa9",
+                    "Order": 1,
+                    "ForwardConfig": {
+                        "TargetGroups": [
+                            {
+                                "TargetGroupArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:targetgroup/awseb-AWSEB-5UND5OGLI120/41c91f107e497aa9",
+                                "Weight": 1
+                            }
+                        ],
+                        "TargetGroupStickinessConfig": {
+                            "Enabled": false,
+                            "DurationSeconds": 3600
+                        }
+                    }
+                }
+            ],
+            "MutualAuthentication": {
+                "Mode": "off"
+            }
+        }
+    ]
+}
+ 
+ 

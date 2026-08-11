@@ -1,0 +1,269 @@
+{
+    "AutoScalingGroups": [
+        {
+            "AutoScalingGroupName": "awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingGroup-wrAbMEVVWmlS",
+            "AutoScalingGroupARN": "arn:aws:autoscaling:us-east-2:401157580704:autoScalingGroup:fc5e4b67-5393-43c5-a7ab-720d8a824a73:autoScalingGroupName/awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingGroup-wrAbMEVVWmlS",
+            "LaunchTemplate": {
+                "LaunchTemplateId": "lt-08a48ed39351b0226",
+                "LaunchTemplateName": "AWSEBEC2LaunchTemplate_MzFjkiGrwCrB",
+                "Version": "45"
+            },
+            "MinSize": 1,
+            "MaxSize": 1,
+            "DesiredCapacity": 1,
+            "DefaultCooldown": 360,
+            "AvailabilityZones": [
+                "us-east-2a",
+                "us-east-2b"
+            ],
+            "AvailabilityZoneIds": [
+                "use2-az1",
+                "use2-az2"
+            ],
+            "LoadBalancerNames": [],
+            "TargetGroupARNs": [
+                "arn:aws:elasticloadbalancing:us-east-2:401157580704:targetgroup/awseb-AWSEB-C3UCIMXXGWE1/de2c3a618de420cc"
+            ],
+            "HealthCheckType": "EC2",
+            "HealthCheckGracePeriod": 0,
+            "Instances": [
+                {
+                    "InstanceId": "i-0f22f8241409b34bd",
+                    "InstanceType": "t2.micro",
+                    "AvailabilityZone": "us-east-2b",
+                    "AvailabilityZoneId": "use2-az2",
+                    "LifecycleState": "InService",
+                    "HealthStatus": "Healthy",
+                    "LaunchTemplate": {
+                        "LaunchTemplateId": "lt-08a48ed39351b0226",
+                        "LaunchTemplateName": "AWSEBEC2LaunchTemplate_MzFjkiGrwCrB",
+                        "Version": "45"
+                    },
+                    "ProtectedFromScaleIn": false
+                }
+            ],
+            "CreatedTime": "2026-06-17T10:38:37.994000+00:00",
+            "SuspendedProcesses": [],
+            "VPCZoneIdentifier": "subnet-0bbffd1611e131f53,subnet-0f50257b665d9cc1b",
+            "EnabledMetrics": [],
+            "Tags": [
+                {
+                    "ResourceId": "awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingGroup-wrAbMEVVWmlS",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "AppManagerCFNStackKey",
+                    "Value": "arn:aws:cloudformation:us-east-2:401157580704:stack/awseb-e-rf8gah3j8s-stack/065e95a0-6968-11ec-98c9-0668cf9a3434",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingGroup-wrAbMEVVWmlS",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "Name",
+                    "Value": "construction-capacity-api-dev-env",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingGroup-wrAbMEVVWmlS",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "AWSEBAutoScalingGroup",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingGroup-wrAbMEVVWmlS",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-2:401157580704:stack/awseb-e-rf8gah3j8s-stack/065e95a0-6968-11ec-98c9-0668cf9a3434",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingGroup-wrAbMEVVWmlS",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "awseb-e-rf8gah3j8s-stack",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingGroup-wrAbMEVVWmlS",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "elasticbeanstalk:environment-id",
+                    "Value": "e-rf8gah3j8s",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingGroup-wrAbMEVVWmlS",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "elasticbeanstalk:environment-name",
+                    "Value": "construction-capacity-api-dev-env",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingGroup-wrAbMEVVWmlS",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "environment",
+                    "Value": "dev",
+                    "PropagateAtLaunch": true
+                }
+            ],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::401157580704:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "CapacityRebalance": false,
+            "TrafficSources": [
+                {
+                    "Identifier": "arn:aws:elasticloadbalancing:us-east-2:401157580704:targetgroup/awseb-AWSEB-C3UCIMXXGWE1/de2c3a618de420cc",
+                    "Type": "elbv2"
+                }
+            ],
+            "AvailabilityZoneDistribution": {
+                "CapacityDistributionStrategy": "balanced-best-effort"
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "default"
+            },
+            "InstanceLifecyclePolicy": {
+                "RetentionTriggers": {
+                    "TerminateHookAbandon": "terminate"
+                }
+            }
+        },
+        {
+            "AutoScalingGroupName": "awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H",
+            "AutoScalingGroupARN": "arn:aws:autoscaling:us-east-2:401157580704:autoScalingGroup:fa2730df-adc4-4857-9518-0d2238925aae:autoScalingGroupName/awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H",
+            "LaunchTemplate": {
+                "LaunchTemplateId": "lt-046979dfd5d20b7eb",
+                "LaunchTemplateName": "AWSEBEC2LaunchTemplate_Oyk4XXmDKHnA",
+                "Version": "34"
+            },
+            "MinSize": 1,
+            "MaxSize": 5,
+            "DesiredCapacity": 1,
+            "DefaultCooldown": 360,
+            "AvailabilityZones": [
+                "us-east-2a",
+                "us-east-2b"
+            ],
+            "AvailabilityZoneIds": [
+                "use2-az1",
+                "use2-az2"
+            ],
+            "LoadBalancerNames": [],
+            "TargetGroupARNs": [
+                "arn:aws:elasticloadbalancing:us-east-2:401157580704:targetgroup/awseb-AWSEB-5UND5OGLI120/41c91f107e497aa9"
+            ],
+            "HealthCheckType": "EC2",
+            "HealthCheckGracePeriod": 0,
+            "Instances": [
+                {
+                    "InstanceId": "i-07fa6c136eea9c03c",
+                    "InstanceType": "t3.large",
+                    "AvailabilityZone": "us-east-2b",
+                    "AvailabilityZoneId": "use2-az2",
+                    "LifecycleState": "InService",
+                    "HealthStatus": "Healthy",
+                    "LaunchTemplate": {
+                        "LaunchTemplateId": "lt-046979dfd5d20b7eb",
+                        "LaunchTemplateName": "AWSEBEC2LaunchTemplate_Oyk4XXmDKHnA",
+                        "Version": "34"
+                    },
+                    "ProtectedFromScaleIn": false
+                }
+            ],
+            "CreatedTime": "2026-06-17T10:58:15.120000+00:00",
+            "SuspendedProcesses": [],
+            "VPCZoneIdentifier": "subnet-0af3fca3903c44b7e,subnet-0f46b98038512ea32",
+            "EnabledMetrics": [],
+            "Tags": [
+                {
+                    "ResourceId": "awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "Created By",
+                    "Value": "Liju",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "Env",
+                    "Value": "Prod env",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "Name",
+                    "Value": "Prodconstructioncapacityapi-env",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "Owner",
+                    "Value": "Krishnachandran",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "AWSEBAutoScalingGroup",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-2:401157580704:stack/awseb-e-t2wrbbxesn-stack/1f261940-180f-11ed-ba75-06dae90ac7d2",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "awseb-e-t2wrbbxesn-stack",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "elasticbeanstalk:environment-id",
+                    "Value": "e-t2wrbbxesn",
+                    "PropagateAtLaunch": true
+                },
+                {
+                    "ResourceId": "awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H",
+                    "ResourceType": "auto-scaling-group",
+                    "Key": "elasticbeanstalk:environment-name",
+                    "Value": "Prodconstructioncapacityapi-env",
+                    "PropagateAtLaunch": true
+                }
+            ],
+            "TerminationPolicies": [
+                "Default"
+            ],
+            "NewInstancesProtectedFromScaleIn": false,
+            "ServiceLinkedRoleARN": "arn:aws:iam::401157580704:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "CapacityRebalance": false,
+            "TrafficSources": [
+                {
+                    "Identifier": "arn:aws:elasticloadbalancing:us-east-2:401157580704:targetgroup/awseb-AWSEB-5UND5OGLI120/41c91f107e497aa9",
+                    "Type": "elbv2"
+                }
+            ],
+            "AvailabilityZoneDistribution": {
+                "CapacityDistributionStrategy": "balanced-best-effort"
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "default"
+            },
+            "InstanceLifecyclePolicy": {
+                "RetentionTriggers": {
+                    "TerminateHookAbandon": "terminate"
+                }
+            }
+        }
+    ]
+}
+ 
+ 

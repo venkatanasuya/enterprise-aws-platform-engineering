@@ -1,0 +1,339 @@
+{
+    "Rules": [
+        {
+            "Name": "Amazon_Inspector_Assessment_0-ZiCKaOnu_IdDvN4D",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/Amazon_Inspector_Assessment_0-ZiCKaOnu_IdDvN4D",
+            "State": "ENABLED",
+            "Description": "Scheduled Inspector Assessment for arn:aws:inspector:us-east-2:401157580704:target/0-8HDGGSUe/template/0-ZiCKaOnurunning every 7 day(s)",
+            "ScheduleExpression": "rate(7 days)",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "Amazon_Inspector_Assessment_0-ZiCKaOnu_IdHszea",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/Amazon_Inspector_Assessment_0-ZiCKaOnu_IdHszea",
+            "State": "ENABLED",
+            "Description": "Scheduled Inspector Assessment for arn:aws:inspector:us-east-2:401157580704:target/0-8HDGGSUe/template/0-ZiCKaOnurunning every 7 day(s)",
+            "ScheduleExpression": "rate(7 days)",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "Amazon_Inspector_Assessment_0-ZiCKaOnu_IdI9BbC",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/Amazon_Inspector_Assessment_0-ZiCKaOnu_IdI9BbC",
+            "State": "ENABLED",
+            "Description": "Scheduled Inspector Assessment for arn:aws:inspector:us-east-2:401157580704:target/0-8HDGGSUe/template/0-ZiCKaOnurunning every 7 day(s)",
+            "ScheduleExpression": "rate(7 days)",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "Amazon_Inspector_Assessment_0-ZiCKaOnu_IdPlj0m",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/Amazon_Inspector_Assessment_0-ZiCKaOnu_IdPlj0m",
+            "State": "ENABLED",
+            "Description": "Scheduled Inspector Assessment for arn:aws:inspector:us-east-2:401157580704:target/0-8HDGGSUe/template/0-ZiCKaOnurunning every 7 day(s)",
+            "ScheduleExpression": "rate(7 days)",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "Amazon_Inspector_Assessment_0-bBDDFo1A_IdIM2uS",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/Amazon_Inspector_Assessment_0-bBDDFo1A_IdIM2uS",
+            "State": "ENABLED",
+            "Description": "Scheduled Inspector Assessment for arn:aws:inspector:us-east-2:401157580704:target/0-W7m2vwKQ/template/0-bBDDFo1Arunning every 7 day(s)",
+            "ScheduleExpression": "rate(7 days)",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "Amazon_Inspector_Assessment_0-jgkJHqez_IdrO5px",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/Amazon_Inspector_Assessment_0-jgkJHqez_IdrO5px",
+            "State": "ENABLED",
+            "Description": "Scheduled Inspector Assessment for arn:aws:inspector:us-east-2:401157580704:target/0-8HDGGSUe/template/0-jgkJHqezrunning every 7 day(s)",
+            "ScheduleExpression": "rate(7 days)",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "Amazon_Inspector_Assessment_0-jgkJHqez_IdxDJed",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/Amazon_Inspector_Assessment_0-jgkJHqez_IdxDJed",
+            "State": "ENABLED",
+            "Description": "Scheduled Inspector Assessment for arn:aws:inspector:us-east-2:401157580704:target/0-8HDGGSUe/template/0-jgkJHqezrunning every 7 day(s)",
+            "ScheduleExpression": "rate(7 days)",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "Change-in-IAM",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/Change-in-IAM",
+            "EventPattern": "{\"source\":[\"aws.iam\"]}",
+            "State": "ENABLED",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "DO-NOT-DELETE-AmazonInspectorEc2ManagedRule",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/DO-NOT-DELETE-AmazonInspectorEc2ManagedRule",
+            "EventPattern": "{\"source\": [\"aws.ec2\"], \"detail-type\": [\"EC2 Instance State-change Notification\"], \"detail\": {\"state\":[\"running\", \"stopped\", \"terminated\"]}}",
+            "State": "ENABLED",
+            "Description": "Managed rule used to route EC2 Events to Inspector",
+            "ManagedBy": "inspector2.amazonaws.com",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "DO-NOT-DELETE-AmazonInspectorEc2TagManagedRule",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/DO-NOT-DELETE-AmazonInspectorEc2TagManagedRule",
+            "EventPattern": "{\"source\": [\"aws.tag\"], \"detail-type\": [\"Tag Change on Resource\"], \"detail\": {\"service\":[\"ec2\"], \"resource-type\":[\"instance\"]}}",
+            "State": "ENABLED",
+            "Description": "Managed rule used to route EC2 Tag Change Events to Inspector",
+            "ManagedBy": "inspector2.amazonaws.com",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "GuardDuty-Finding-Alerts",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/GuardDuty-Finding-Alerts",
+            "EventPattern": "{\"source\":[\"aws.guardduty\"],\"detail-type\":[\"GuardDuty Finding\"]}",
+            "State": "ENABLED",
+            "Description": "",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "INTACT_EC2_Availability_P1",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/INTACT_EC2_Availability_P1",
+            "EventPattern": "{\"source\":[\"aws.ec2\"],\"detail-type\":[\"EC2 Instance State-change Notification\"]}",
+            "State": "ENABLED",
+            "Description": "INTACT_EC2_Availability_P1\nFor any change of state of any instance",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "INTACT_GLUE_job_state_change_P1",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/INTACT_GLUE_job_state_change_P1",
+            "EventPattern": "{\"source\":[\"aws.glue\"],\"detail-type\":[\"Glue Job State Change\"]}",
+            "State": "ENABLED",
+            "Description": "INTACT_GLUE_job_state_change\nFor any job state change succeeded to failed",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "Monitor-routetable-changes",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/Monitor-routetable-changes",
+            "EventPattern": "{\"source\":[\"aws.ec2\"],\"detail-type\":[\"AWS API Call via CloudTrail\"],\"detail\":{\"eventSource\":[\"ec2.amazonaws.com\"],\"eventName\":[\"CreateRoute\",\"ReplaceRoute\",\"DeleteRoute\",\"CreateRouteTable\",\"DeleteRouteTable\",\"AssociateRouteTable\",\"DisassociateRouteTable\"]}}",
+            "State": "ENABLED",
+            "Description": "",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "SSMExplorerManagedRule",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/SSMExplorerManagedRule",
+            "EventPattern": "{\"source\":[\"aws.securityhub\"],\"detail-type\":[\"Security Hub Insight Results\",\"Security Hub Findings\",\"Security Hub Findings - Imported\",\"Security Hub Findings - Custom Action\"]}",
+            "State": "ENABLED",
+            "Description": "This rule is managed by SSM Explorer to provide comprehensive insights across AWS services",
+            "ManagedBy": "ssm.amazonaws.com",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "SSMOpsItems-Autoscaling-instance-launch-failure",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/SSMOpsItems-Autoscaling-instance-launch-failure",
+            "EventPattern": "{\n  \"source\": [ \"aws.autoscaling\" ],\n  \"detail-type\": [ \"EC2 Instance Launch Unsuccessful\"],\n  \"detail\": {\n    \"StatusCode\": [\"Failed\"]\n  }\n}",
+            "State": "ENABLED",
+            "Description": "Rule for SSM OpsCenter to create OpsItems when EC2 Auto Scaling instance launch failed",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "SSMOpsItems-Autoscaling-instance-termination-failure",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/SSMOpsItems-Autoscaling-instance-termination-failure",
+            "EventPattern": "{\n  \"source\": [ \"aws.autoscaling\" ],\n  \"detail-type\": [ \"EC2 Instance Terminate Unsuccessful\"],\n  \"detail\": {\n    \"StatusCode\": [\"Failed\"]\n  }\n}",
+            "State": "ENABLED",
+            "Description": "Rule for SSM OpsCenter to create OpsItems when EC2 Auto Scaling instance termination failed",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "SSMOpsItems-EBS-snapshot-copy-failed",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/SSMOpsItems-EBS-snapshot-copy-failed",
+            "EventPattern": "{\n  \"source\": [ \"aws.ec2\" ],\n  \"detail-type\": [\"EBS Snapshot Notification\"],\n  \"detail\": {\n    \"event\": [\"copySnapshot\"],\n    \"result\": [\"failed\"]\n  }\n}",
+            "State": "ENABLED",
+            "Description": "Rule for SSM OpsCenter to create OpsItems when EBS snapshot copy failed",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "SSMOpsItems-EBS-snapshot-creation-failed",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/SSMOpsItems-EBS-snapshot-creation-failed",
+            "EventPattern": "{\n  \"source\": [ \"aws.ec2\" ],\n  \"detail-type\": [\"EBS Snapshot Notification\"],\n  \"detail\": {\n    \"event\": [\"createSnapshot\"],\n    \"result\": [\"failed\"]\n  }\n}",
+            "State": "ENABLED",
+            "Description": "Rule for SSM OpsCenter to create OpsItems when EBS snapshot creation failed",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "SSMOpsItems-EBS-volume-performance-issue",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/SSMOpsItems-EBS-volume-performance-issue",
+            "EventPattern": "{\n  \"source\": [ \"aws.health\" ],\n  \"detail-type\": [ \"AWS Health Event\" ],\n  \"detail\": {\n    \"service\": [ \"EBS\" ],\n    \"eventTypeCategory\": [ \"issue\" ],\n    \"eventTypeCode\": [ \"AWS_EBS_DEGRADED_EBS_VOLUME_PERFORMANCE\" ]\n  }\n}",
+            "State": "ENABLED",
+            "Description": "Rule for SSM OpsCenter to create OpsItems for EBS volume performance issue",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "SSMOpsItems-EC2-issue",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/SSMOpsItems-EC2-issue",
+            "EventPattern": "{\n  \"source\": [ \"aws.health\" ],\n  \"detail-type\": [ \"AWS Health Event\" ],\n  \"detail\": {\n    \"service\": [ \"EC2\" ],\n    \"eventTypeCategory\": [ \"issue\" ]\n  }\n}",
+            "State": "ENABLED",
+            "Description": "Rule for SSM OpsCenter to create OpsItems for any EC2 issue",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "SSMOpsItems-EC2-scheduled-change",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/SSMOpsItems-EC2-scheduled-change",
+            "EventPattern": "{\n  \"source\": [ \"aws.health\" ],\n  \"detail-type\": [ \"AWS Health Event\" ],\n  \"detail\": {\n    \"service\": [ \"EC2\" ],\n    \"eventTypeCategory\": [ \"scheduledChange\" ]\n  }\n}",
+            "State": "ENABLED",
+            "Description": "Rule for SSM OpsCenter to create OpsItems for EC2 scheduled changes",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "SSMOpsItems-RDS-issue",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/SSMOpsItems-RDS-issue",
+            "EventPattern": "{\n  \"source\": [ \"aws.health\" ],\n  \"detail-type\": [ \"AWS Health Event\"],\n  \"detail\": {\n    \"service\": [\"RDS\"],\n    \"eventTypeCategory\": [\"issue\"]\n  }\n}",
+            "State": "ENABLED",
+            "Description": "Rule for SSM OpsCenter to create OpsItems for any RDS issue",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "SSMOpsItems-RDS-scheduled-change",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/SSMOpsItems-RDS-scheduled-change",
+            "EventPattern": "{\n  \"source\": [ \"aws.health\" ],\n  \"detail-type\": [ \"AWS Health Event\"],\n  \"detail\": {\n    \"service\": [\"RDS\"],\n    \"eventTypeCategory\": [\"scheduledChange\"]\n  }\n}",
+            "State": "ENABLED",
+            "Description": "Rule for SSM OpsCenter to create OpsItems for RDS scheduled changes",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "SSMOpsItems-SSM-maintenance-window-execution-failed",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/SSMOpsItems-SSM-maintenance-window-execution-failed",
+            "EventPattern": "{\n  \"source\": [ \"aws.ssm\" ],\n  \"detail-type\": [ \"Maintenance Window Execution State-change Notification\"],\n  \"detail\": {\n    \"status\": [ \"FAILED\" ]\n  }\n}",
+            "State": "ENABLED",
+            "Description": "Rule for SSM OpsCenter to create OpsItems when SSM maintenance window execution failed",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "SSMOpsItems-SSM-maintenance-window-execution-timedout",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/SSMOpsItems-SSM-maintenance-window-execution-timedout",
+            "EventPattern": "{\n  \"source\": [ \"aws.ssm\" ],\n  \"detail-type\": [ \"Maintenance Window Execution State-change Notification\"],\n  \"detail\": {\n    \"status\": [ \"TIMED_OUT\" ]\n  }\n}",
+            "State": "ENABLED",
+            "Description": "Rule for SSM OpsCenter to create OpsItems when SSM maintenance window execution timedout",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "SecurityHubAllAlerts",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/SecurityHubAllAlerts",
+            "EventPattern": "{\"source\":[\"aws.securityhub\"],\"detail-type\":[\"Security Hub Findings - Imported\"],\"detail\":{\"findings\":{\"Severity\":{\"Label\":[\"CRITICAL\",\"HIGH\",\"MEDIUM\",\"LOW\"]},\"RecordState\":[\"ACTIVE\",\"ARCHIVED\"],\"Workflow\":{\"Status\":[\"NEW\",\"NOTIFIED\",\"RESOLVED\",\"SUPPRESSED\"]}}}}",
+            "State": "ENABLED",
+            "Description": "",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "SecurityHubSummaryEmailSchedule",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/SecurityHubSummaryEmailSchedule",
+            "State": "ENABLED",
+            "Description": "Triggers the Recurring Security Hub summary email",
+            "ScheduleExpression": "cron(0 15 ? * 6 *)",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "cloud-formation-templatechange",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/cloud-formation-templatechange",
+            "EventPattern": "{\"source\":[\"aws.cloudformation\"],\"detail-type\":[\"CloudFormation Stack Status Change\"]}",
+            "State": "ENABLED",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "console_login",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/console_login",
+            "EventPattern": "{\"source\":[\"aws.signin\"],\"detail-type\":[\"AWS Console Sign In via CloudTrail\"]}",
+            "State": "ENABLED",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "rule_SNS_topic_ALL_TOPICS_DEFAULT",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/rule_SNS_topic_ALL_TOPICS_DEFAULT",
+            "EventPattern": "{\"source\":[\"aws.cloudtrail\"]}",
+            "State": "ENABLED",
+            "Description": "ALL_TOPICS_DEFAULT rule set for all cloud trail",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "rule_alb_all_events",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/rule_alb_all_events",
+            "EventPattern": "{\"source\":[\"aws.elasticloadbalancing\"]}",
+            "State": "ENABLED",
+            "Description": "rule_alb_all_events",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "rule_api_gateway_all_events",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/rule_api_gateway_all_events",
+            "EventPattern": "{\"source\":[\"aws.apigateway\"]}",
+            "State": "ENABLED",
+            "Description": "rule_api_gateway_all_events",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "rule_beanstalk_all_events",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/rule_beanstalk_all_events",
+            "EventPattern": "{\"source\":[\"aws.elasticbeanstalk\"]}",
+            "State": "ENABLED",
+            "Description": "rule_beanstalk_all_events",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "rule_cloud_watch_all_events",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/rule_cloud_watch_all_events",
+            "EventPattern": "{\"source\":[\"aws.cloudwatch\"]}",
+            "State": "ENABLED",
+            "Description": "rule_cloud_watch_all_events",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "rule_cloud_watch_logs_all_events",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/rule_cloud_watch_logs_all_events",
+            "EventPattern": "{\"source\":[\"aws.logs\"]}",
+            "State": "ENABLED",
+            "Description": "rule_cloud_watch_logs_all_events",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "rule_ec2_all_events",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/rule_ec2_all_events",
+            "EventPattern": "{\"source\":[\"aws.ec2\"]}",
+            "State": "ENABLED",
+            "Description": "rule_ec2_all_events",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "rule_glue_all_events",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/rule_glue_all_events",
+            "EventPattern": "{\"source\":[\"aws.glue\"]}",
+            "State": "ENABLED",
+            "Description": "rule_glue_all_events",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "rule_lambda_all_events",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/rule_lambda_all_events",
+            "EventPattern": "{\"source\":[\"aws.lambda\"]}",
+            "State": "ENABLED",
+            "Description": "rule_lambda_all_events",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "rule_rds_all_events",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/rule_rds_all_events",
+            "EventPattern": "{\"source\":[\"aws.rds\"]}",
+            "State": "ENABLED",
+            "Description": "rule_rds_all_events",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "security_hub_findings",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/security_hub_findings",
+            "EventPattern": "{\"source\":[\"aws.securityhub\"]}",
+            "State": "DISABLED",
+            "EventBusName": "default"
+        },
+        {
+            "Name": "weekly-inventory-report",
+            "Arn": "arn:aws:events:us-east-2:401157580704:rule/weekly-inventory-report",
+            "State": "DISABLED",
+            "Description": "",
+            "ScheduleExpression": "cron(30 2 ? * MON *)",
+            "EventBusName": "default"
+        }
+    ]
+}

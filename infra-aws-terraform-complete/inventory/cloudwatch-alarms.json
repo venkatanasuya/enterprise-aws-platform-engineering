@@ -1,0 +1,1249 @@
+{
+    "MetricAlarms": [
+        {
+            "AlarmName": "CloudTrail_AWS_Configuration_changes",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:CloudTrail_AWS_Configuration_changes",
+            "AlarmDescription": "CloudTrail_AWS_Configuration_changes\n!!TAKE IMMEDIATE ACTION!!",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-14T13:06:00.975000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:CloudTrail_AWS_Configuration_changes"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (07/02/24 06:05:00)] was not greater than the threshold (0.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2024-02-07T06:10:05.064+0000\",\"startDate\":\"2024-02-07T06:05:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":0.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2024-02-07T06:05:00.000+0000\",\"sampleCount\":131.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2024-02-07T11:40:05.068000+05:30",
+            "MetricName": "CloudTrail_AWS_Configuration_changes",
+            "Namespace": "CloudTrail_AWS_Configuration_changes",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2024-02-07T11:40:05.068000+05:30"
+        },
+        {
+            "AlarmName": "Config_configuration_changes",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:Config_configuration_changes",
+            "AlarmDescription": "Config_configuration_changes\n!!TAKE IMMEDIATE ACTION!!",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-14T13:18:50.029000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:Config_configuration_changes"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (29/01/26 22:27:00)] was not greater than the threshold (0.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-01-29T22:32:36.601+0000\",\"startDate\":\"2026-01-29T22:27:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":0.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-01-29T22:27:00.000+0000\",\"sampleCount\":474.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2026-01-30T04:02:36.604000+05:30",
+            "MetricName": "Config_configuration",
+            "Namespace": "Config_configuration_changes",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-01-30T04:02:36.604000+05:30"
+        },
+        {
+            "AlarmName": "IAM_policy_changes",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:IAM_policy_changes",
+            "AlarmConfigurationUpdatedTimestamp": "2025-01-20T11:12:24.323000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:IAM_Policy_changes"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (23/04/26 13:02:00)] was not greater than or equal to the threshold (1.0E-10) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-04-23T13:07:31.034+0000\",\"startDate\":\"2026-04-23T13:02:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":1.0E-10,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-04-23T13:02:00.000+0000\",\"sampleCount\":272.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2026-04-23T18:37:31.037000+05:30",
+            "MetricName": "IAM_policy_changes",
+            "Namespace": "IAM policy",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1e-10,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-04-23T18:37:31.037000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_ALB_awseb-AWSEB-15YB24HYGYPZE_5XXs_P1",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_ALB_awseb-AWSEB-15YB24HYGYPZE_5XXs_P1",
+            "AlarmDescription": "INTACT_ALB_awseb-AWSEB-15YB24HYGYPZE_P1\nELB 5XXs >= 1\n**CAUTION** - NEED IMMEDIATE ATTENTION",
+            "AlarmConfigurationUpdatedTimestamp": "2023-01-20T14:33:08.095000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_ALB_awseb-AWSEB-15YB24HYGYPZE_5XXs_P1"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: no datapoints were received for 1 period and 1 missing datapoint was treated as [NonBreaching].",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2023-01-20T09:04:30.609+0000\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2023-01-20T09:02:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2023-01-20T14:34:30.623000+05:30",
+            "MetricName": "HTTPCode_ELB_5XX_Count",
+            "Namespace": "AWS/ApplicationELB",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/awseb-AWSEB-15YB24HYGYPZE/acee8aa2180f09e0"
+                }
+            ],
+            "Period": 60,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2023-01-20T14:34:30.623000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_ALB_awseb-AWSEB-ZO7QRX88VT24_5XXs_P2",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_ALB_awseb-AWSEB-ZO7QRX88VT24_5XXs_P2",
+            "AlarmDescription": "INTACT_ALB_awseb-AWSEB-ZO7QRX88VT24_5XXs_P2\nELB 5XXs >= 1\n**CAUTION** - NEED IMMEDIATE ATTENTION",
+            "AlarmConfigurationUpdatedTimestamp": "2023-01-20T14:33:35.644000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_ALB_awseb-AWSEB-ZO7QRX88VT24_5XXs_P2"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: no datapoints were received for 1 period and 1 missing datapoint was treated as [NonBreaching].",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2023-01-20T09:04:32.654+0000\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2023-01-20T09:02:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2023-01-20T14:34:32.657000+05:30",
+            "MetricName": "HTTPCode_ELB_5XX_Count",
+            "Namespace": "AWS/ApplicationELB",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/awseb-AWSEB-ZO7QRX88VT24/c0eb7e5c284721e3"
+                }
+            ],
+            "Period": 60,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2023-01-20T14:34:32.657000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_APIgateway_construction-capacity-api-Sapiens_4xxError_P2",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_APIgateway_construction-capacity-api-Sapiens_4xxError_P2",
+            "AlarmDescription": "INTACT_APIgateway_construction-capacity-api-Sapiens_4xxError_P2\n4xxERROR > 1\n",
+            "AlarmConfigurationUpdatedTimestamp": "2023-01-19T17:25:46.111000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_APIgateway_construction-capacity-api-Sapiens_4xxError_P2"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: no datapoints were received for 1 period and 1 missing datapoint was treated as [NonBreaching].",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-06-08T18:57:08.070+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-06-08T18:52:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2026-06-09T00:27:08.073000+05:30",
+            "MetricName": "4XXError",
+            "Namespace": "AWS/ApiGateway",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "ApiName",
+                    "Value": "construction-capacity-api"
+                },
+                {
+                    "Name": "Stage",
+                    "Value": "sapiens"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2026-06-09T00:27:08.073000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_APIgateway_construction-capacity-api-Sapiens_5xxError_P2",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_APIgateway_construction-capacity-api-Sapiens_5xxError_P2",
+            "AlarmDescription": "INTACT_APIgateway_construction-capacity-api-Sapiens_4xxError_P2\n5xxERROR >= 1",
+            "AlarmConfigurationUpdatedTimestamp": "2023-01-19T17:31:06.163000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_APIgateway_construction-capacity-api-Sapiens_5xxError_P2"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: no datapoints were received for 1 period and 1 missing datapoint was treated as [NonBreaching].",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-05-12T15:58:15.280+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-05-12T15:53:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2026-05-12T21:28:15.283000+05:30",
+            "MetricName": "5XXError",
+            "Namespace": "AWS/ApiGateway",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "ApiName",
+                    "Value": "construction-capacity-api"
+                },
+                {
+                    "Name": "Stage",
+                    "Value": "sapiens"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2026-05-12T21:28:15.283000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_APIgateway_construction-capacity-api-prod-Sapiens_4xxError_P1",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_APIgateway_construction-capacity-api-prod-Sapiens_4xxError_P1",
+            "AlarmDescription": "INTACT_APIgateway_construction-capacity-api-prod-Sapiens_4xxError_P1\n4xxERROR >= 1\n",
+            "AlarmConfigurationUpdatedTimestamp": "2023-01-19T17:24:04.379000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_APIgateway_construction-capacity-api-prod-Sapiens_4xxError_P1"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.5 (22/06/26 18:47:00)] was not greater than or equal to the threshold (1.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-06-22T18:52:20.340+0000\",\"startDate\":\"2026-06-22T18:47:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.5],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-06-22T18:47:00.000+0000\",\"sampleCount\":2.0,\"value\":0.5}]}",
+            "StateUpdatedTimestamp": "2026-06-23T00:22:20.342000+05:30",
+            "MetricName": "4XXError",
+            "Namespace": "AWS/ApiGateway",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "ApiName",
+                    "Value": "construction-capacity-api-prod"
+                },
+                {
+                    "Name": "Stage",
+                    "Value": "sapiens"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2026-06-23T00:22:20.342000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_APIgateway_construction-capacity-api-prod-Sapiens_5xxError_P1",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_APIgateway_construction-capacity-api-prod-Sapiens_5xxError_P1",
+            "AlarmDescription": "INTACT_APIgateway_construction-capacity-api-prod-Sapiens_4xxError_P1\n5xxERROR >= 1",
+            "AlarmConfigurationUpdatedTimestamp": "2023-01-19T17:33:25.345000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_APIgateway_construction-capacity-api-prod-Sapiens_5xxError_P1"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: no datapoints were received for 1 period and 1 missing datapoint was treated as [NonBreaching].",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-02-03T23:18:36.254+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-02-03T23:13:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2026-02-04T04:48:36.256000+05:30",
+            "MetricName": "5XXError",
+            "Namespace": "AWS/ApiGateway",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "ApiName",
+                    "Value": "construction-capacity-api-prod"
+                },
+                {
+                    "Name": "Stage",
+                    "Value": "sapiens"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2026-02-04T04:48:36.256000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_EC2_Powerbi-Desktop-new_CPUUtilization_P2_S1_95_Per",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_EC2_Powerbi-Desktop-new_CPUUtilization_P2_S1_95_Per",
+            "AlarmDescription": "INTACT_EC2_Powerbi-Desktop-new_CPUUtilization_P2_S1\nCPU_Utilization >=95 %\n** CRITICAL ** - NEED IMMEDIATE ATTENTION !!\n",
+            "AlarmConfigurationUpdatedTimestamp": "2025-05-05T14:26:14.092000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:lambda:us-east-2:401157580704:function:Custom-email-for-EC2-and-RDS"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [93.69845402212167 (13/05/26 06:17:00)] was not greater than the threshold (95.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-05-13T06:22:34.099+0000\",\"startDate\":\"2026-05-13T06:17:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[93.69845402212167],\"threshold\":95.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-05-13T06:17:00.000+0000\",\"sampleCount\":5.0,\"value\":93.69845402212167}]}",
+            "StateUpdatedTimestamp": "2026-05-13T11:52:34.100000+05:30",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-01bf910b0fffef645"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 95.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-05-13T11:52:34.100000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_EC2_Powerbi-Desktop-prod-new_CPUUtilization_P1_S1_90_Per",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_EC2_Powerbi-Desktop-prod-new_CPUUtilization_P1_S1_90_Per",
+            "AlarmDescription": "INTACT_EC2_Powerbi-Desktop-prod-new_CPUUtilization_P1_S1\nCPU_Utilization >=90 %\n** CRITICAL ** - NEED IMMEDIATE ATTENTION !!",
+            "AlarmConfigurationUpdatedTimestamp": "2026-02-20T22:52:26.073000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_EC2_Powerbi-Desktop-new_CPUUtilization_PSteam"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [84.57974683398513 (01/07/26 18:11:00)] was not greater than the threshold (90.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-07-01T18:16:05.610+0000\",\"startDate\":\"2026-07-01T18:11:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[84.57974683398513],\"threshold\":90.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-07-01T18:11:00.000+0000\",\"sampleCount\":5.0,\"value\":84.57974683398513}]}",
+            "StateUpdatedTimestamp": "2026-07-01T23:46:05.613000+05:30",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0c93e509ed5de753b"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 90.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-07-01T23:46:05.613000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_ElasticBeanstalk_Prodconstructioncapacityapi-env_Health_P1",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_ElasticBeanstalk_Prodconstructioncapacityapi-env_Health_P1",
+            "AlarmDescription": "INTACT_ElasticBeanstalk_Prodconstructioncapacityapi-env_Health_P1\nEnvironmentHealth >= 0.2\n**CAUTION** - NEED IMMEDIATE ATTENTION",
+            "AlarmConfigurationUpdatedTimestamp": "2023-01-11T16:38:19.659000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_ElasticBeanstalk_Prodconstructioncapacityapi-env_Health_P2"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (17/06/26 11:02:00)] was not greater than the threshold (0.2) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-06-17T11:07:59.659+0000\",\"startDate\":\"2026-06-17T11:02:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":0.2,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-06-17T11:02:00.000+0000\",\"sampleCount\":5.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2026-06-17T16:37:59.660000+05:30",
+            "MetricName": "EnvironmentHealth",
+            "Namespace": "AWS/ElasticBeanstalk",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "EnvironmentName",
+                    "Value": "Prodconstructioncapacityapi-env"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.2,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-06-17T16:37:59.660000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_ElasticBeanstalk_construction-capacity-api-dev-env_Health_P2",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_ElasticBeanstalk_construction-capacity-api-dev-env_Health_P2",
+            "AlarmDescription": "INTACT_ElasticBeanstalk_construction-capacity-api-dev-env_Health_P2\nEnvironmentHealth>= 0.2\n**CAUTION** - NEED IMMEDIATE ATTENTION",
+            "AlarmConfigurationUpdatedTimestamp": "2023-01-11T16:33:08.365000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_ElasticBeanstalk_construction-capacity-api-dev-env_Health_P2"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (24/06/26 10:50:00)] was not greater than the threshold (0.2) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-06-24T10:55:14.987+0000\",\"startDate\":\"2026-06-24T10:50:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":0.2,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-06-24T10:50:00.000+0000\",\"sampleCount\":5.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2026-06-24T16:25:14.988000+05:30",
+            "MetricName": "EnvironmentHealth",
+            "Namespace": "AWS/ElasticBeanstalk",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "EnvironmentName",
+                    "Value": "construction-capacity-api-dev-env"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.2,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-06-24T16:25:14.988000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_Lambda_Construction-job-trigger-prod_Errors_P1",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_Lambda_Construction-job-trigger-prod_Errors_P1",
+            "AlarmDescription": "INTACT_Lambda_Construction-job-trigger-prod_Errors_P1\nERROR>= 0.5\n**CAUTION** - NEED IMMEDIATE ATTENTION",
+            "AlarmConfigurationUpdatedTimestamp": "2023-01-20T14:32:43.382000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_Lambda_Construction-job-trigger-prod_Errors_P1"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: no datapoints were received for 1 period and 1 missing datapoint was treated as [NonBreaching].",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-06-17T14:05:21.851+0000\",\"statistic\":\"Sum\",\"period\":300,\"recentDatapoints\":[],\"threshold\":0.5,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-06-17T14:00:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2026-06-17T19:35:21.852000+05:30",
+            "MetricName": "Errors",
+            "Namespace": "AWS/Lambda",
+            "Statistic": "Sum",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "Construction-job-trigger-prod"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.5,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2026-06-17T19:35:21.852000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_Lambda_DevConstructionLambdaFunc_Errors_P2",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_Lambda_DevConstructionLambdaFunc_Errors_P2",
+            "AlarmDescription": "INTACT_Lambda_DevConstructionLambdaFunc_Errors_P2\nERRORS>= 0.5\n**CAUTION** - NEED IMMEDIATE ATTENTION",
+            "AlarmConfigurationUpdatedTimestamp": "2023-01-20T14:32:14.703000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_Lambda_DevConstructionLambdaFunc_Errors_P2"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: no datapoints were received for 1 period and 1 missing datapoint was treated as [NonBreaching].",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-03-18T08:10:12.223+0000\",\"statistic\":\"Sum\",\"period\":300,\"recentDatapoints\":[],\"threshold\":0.5,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-03-18T08:05:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2026-03-18T13:40:12.225000+05:30",
+            "MetricName": "Errors",
+            "Namespace": "AWS/Lambda",
+            "Statistic": "Sum",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "DevConstructionLambdaFunc"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.5,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2026-03-18T13:40:12.225000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_RDS_ark-construction-db-dev-new_Disk_P2_S1_90_Per",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_RDS_ark-construction-db-dev-new_Disk_P2_S1_90_Per",
+            "AlarmDescription": "INTACT_RDS_ark-construction-db-dev_new_Disk_P2_S1_90_Per\nFree Storage Space <= 5GB\nCAUTION - NEED IMMEDIATE ATTENTION",
+            "AlarmConfigurationUpdatedTimestamp": "2024-02-26T13:21:24.137000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_RDS_ark-construction-db-dev_Disk_P2"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [1.5033655296E10 (26/02/24 07:51:00)] was not less than or equal to the threshold (5.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2024-02-26T07:52:11.650+0000\",\"startDate\":\"2024-02-26T07:51:00.000+0000\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[1.5033655296E10],\"threshold\":5.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2024-02-26T07:51:00.000+0000\",\"sampleCount\":1.0,\"value\":1.5033655296E10}]}",
+            "StateUpdatedTimestamp": "2024-02-26T13:22:11.653000+05:30",
+            "MetricName": "FreeStorageSpace",
+            "Namespace": "AWS/RDS",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "ark-construction-db-dev-new"
+                }
+            ],
+            "Period": 60,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 5.0,
+            "ComparisonOperator": "LessThanOrEqualToThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2024-02-26T13:22:11.653000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_RDS_ark-construction-db-dev_CPUUtilization_P2_S1_90_Per",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_RDS_ark-construction-db-dev_CPUUtilization_P2_S1_90_Per",
+            "AlarmDescription": "INTACT_RDS_ark-construction-db-dev_CPUUtilization_P2_S1\nCPU_Utilization>= 90 %\n**CAUTION** - NEED IMMEDIATE ATTENTION",
+            "AlarmConfigurationUpdatedTimestamp": "2023-01-16T15:16:44.912000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_RDS_ark-construction-db-dev_CPUUtilization_PSteam"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "INSUFFICIENT_DATA",
+            "StateReason": "Insufficient Data: 2 datapoints were unknown.",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2024-01-03T07:06:35.975+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[],\"threshold\":90.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2024-01-03T07:00:00.000+0000\"},{\"timestamp\":\"2024-01-03T06:55:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2024-01-03T12:36:35.977000+05:30",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/RDS",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "ark-construction-db-dev"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 2,
+            "DatapointsToAlarm": 2,
+            "Threshold": 90.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2024-01-03T12:36:35.977000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_RDS_ark-construction-db-dev_Disk_P2_S1_90_Per",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_RDS_ark-construction-db-dev_Disk_P2_S1_90_Per",
+            "AlarmDescription": "INTACT_RDS_ark-construction-db-dev_Disk_P2_S1_90_Per\nFree Storage Space <= 5GB\n**CAUTION** - NEED IMMEDIATE ATTENTION",
+            "AlarmConfigurationUpdatedTimestamp": "2023-01-12T13:18:04.987000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_RDS_ark-construction-db-dev_Disk_P2"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "INSUFFICIENT_DATA",
+            "StateReason": "Insufficient Data: 1 datapoint was unknown.",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2024-01-03T06:52:55.528+0000\",\"statistic\":\"Minimum\",\"period\":60,\"recentDatapoints\":[],\"threshold\":5.1,\"evaluatedDatapoints\":[{\"timestamp\":\"2024-01-03T06:51:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2024-01-03T12:22:55.529000+05:30",
+            "MetricName": "FreeStorageSpace",
+            "Namespace": "AWS/RDS",
+            "Statistic": "Minimum",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "ark-construction-db-dev"
+                }
+            ],
+            "Period": 60,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 5.1,
+            "ComparisonOperator": "LessThanOrEqualToThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2024-01-03T12:22:55.529000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_RDS_ark-construction-db-dev_new_CPUUtilization_P2_S1_90_Per",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_RDS_ark-construction-db-dev_new_CPUUtilization_P2_S1_90_Per",
+            "AlarmDescription": "ark-construction-db-dev_new CPUUtilization_P2_S1_90_Per",
+            "AlarmConfigurationUpdatedTimestamp": "2025-04-30T15:50:39.808000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:lambda:us-east-2:401157580704:function:Custom-email-for-EC2-and-RDS"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [83.89166666666667 (05/06/26 00:31:00)] was not greater than the threshold (90.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-06-05T00:33:33.806+0000\",\"startDate\":\"2026-06-05T00:31:00.000+0000\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[83.89166666666667],\"threshold\":90.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-06-05T00:31:00.000+0000\",\"sampleCount\":1.0,\"value\":83.89166666666667}]}",
+            "StateUpdatedTimestamp": "2026-06-05T06:03:33.808000+05:30",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/RDS",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "ark-construction-db-dev-new"
+                }
+            ],
+            "Period": 60,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 90.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-06-05T06:03:33.808000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_RDS_ark-construction-db-prod-new_CPUUtilization_P1_S1_85_Per",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_RDS_ark-construction-db-prod-new_CPUUtilization_P1_S1_85_Per",
+            "AlarmDescription": "INTACT_RDS_ark-construction-db-prod_CPUUtilization_P1_S1\nCPU_Utilization>= 85 %\nCAUTION - NEED IMMEDIATE ATTENTION",
+            "AlarmConfigurationUpdatedTimestamp": "2026-02-27T22:37:47.576000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_EC2_Powerbi-Desktop-new_CPUUtilization_PSteam"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [79.79333333333334 (02/07/26 18:38:00)] was not greater than the threshold (85.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-07-02T18:44:35.671+0000\",\"startDate\":\"2026-07-02T18:38:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[79.79333333333334],\"threshold\":85.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-07-02T18:38:00.000+0000\",\"sampleCount\":5.0,\"value\":79.79333333333334}]}",
+            "StateUpdatedTimestamp": "2026-07-03T00:14:35.674000+05:30",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/RDS",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "ark-construction-db-prod-new"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 85.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-07-03T00:14:35.674000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_RDS_ark-construction-db-prod_CPUUtilization_P1_S1_85_Per",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_RDS_ark-construction-db-prod_CPUUtilization_P1_S1_85_Per",
+            "AlarmDescription": "INTACT_RDS_ark-construction-db-prod_CPUUtilization_P1_S1\nCPU_Utilization>= 85 %\n**CAUTION** - NEED IMMEDIATE ATTENTION",
+            "AlarmConfigurationUpdatedTimestamp": "2023-01-11T15:34:21.046000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_RDS_ark-construction-db-prod_CPUUtilization_PSteam"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "INSUFFICIENT_DATA",
+            "StateReason": "Insufficient Data: 1 datapoint was unknown.",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2023-12-29T18:51:22.813+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[],\"threshold\":85.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2023-12-29T18:45:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2023-12-30T00:21:22.816000+05:30",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/RDS",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "ark-construction-db-prod"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 85.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2023-12-30T00:21:22.816000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_RDS_constructioncapacityapi-db-dev_CPUUtilization_P2_S1_90_Per",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_RDS_constructioncapacityapi-db-dev_CPUUtilization_P2_S1_90_Per",
+            "AlarmDescription": "INTACT_RDS_constructioncapacityapi-db-dev_CPUUtilization_P2_S1\nCPU_Utilization>= 90 %\n**CAUTION** - NEED IMMEDIATE ATTENTION",
+            "AlarmConfigurationUpdatedTimestamp": "2025-04-29T14:23:35.620000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:lambda:us-east-2:401157580704:function:Custom-email-for-EC2-and-RDS"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [5.503337668616702 (11/01/23 10:07:00)] was not greater than the threshold (90.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2023-01-11T10:13:18.904+0000\",\"startDate\":\"2023-01-11T10:07:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[5.503337668616702],\"threshold\":90.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2023-01-11T10:07:00.000+0000\",\"sampleCount\":5.0,\"value\":5.503337668616702}]}",
+            "StateUpdatedTimestamp": "2023-01-11T15:43:18.909000+05:30",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/RDS",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "constructioncapacityapi-db-dev"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 90.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2023-01-11T15:43:18.909000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_RDS_constructioncapacityapi-db-prod_CPUUtilization_P1_S1_85_Per",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_RDS_constructioncapacityapi-db-prod_CPUUtilization_P1_S1_85_Per",
+            "AlarmDescription": "INTACT_RDS_constructioncapacityapi-db-prod_CPUUtilization_P1_S1\nCPU_Utilization>= 85 %\n**CAUTION** - NEED IMMEDIATE ATTENTION",
+            "AlarmConfigurationUpdatedTimestamp": "2023-01-11T15:46:34.880000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_RDS_constructioncapacityapi-db-prod_CPUUtilization_PSteam"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [8.141666666666667 (11/01/23 10:11:00)] was not greater than the threshold (85.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2023-01-11T10:17:28.867+0000\",\"startDate\":\"2023-01-11T10:11:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[8.141666666666667],\"threshold\":85.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2023-01-11T10:11:00.000+0000\",\"sampleCount\":5.0,\"value\":8.141666666666667}]}",
+            "StateUpdatedTimestamp": "2023-01-11T15:47:28.872000+05:30",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/RDS",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "DBInstanceIdentifier",
+                    "Value": "constructioncapacityapi-db-prod"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 85.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2023-01-11T15:47:28.872000+05:30"
+        },
+        {
+            "AlarmName": "INTACT_VPN_Intact-vpn_TunnelState_P1",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:INTACT_VPN_Intact-vpn_TunnelState_P1",
+            "AlarmDescription": "INTACT_VPN_Intact-vpn_TunnelState_P1\nTunnelstate <= 0.8\n**CAUTION** - NEED IMMEDIATE ATTENTION",
+            "AlarmConfigurationUpdatedTimestamp": "2023-02-03T04:00:51.002000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:INTACT_VPN_Intact-vpn_TunnelState_P1"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.9 (13/04/26 11:51:00)] was not less than or equal to the threshold (0.8) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-04-13T11:56:18.411+0000\",\"startDate\":\"2026-04-13T11:51:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.9],\"threshold\":0.8,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-04-13T11:51:00.000+0000\",\"sampleCount\":10.0,\"value\":0.9}]}",
+            "StateUpdatedTimestamp": "2026-04-13T17:26:18.413000+05:30",
+            "MetricName": "TunnelState",
+            "Namespace": "AWS/VPN",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "TunnelIpAddress",
+                    "Value": "3.128.98.207"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.8,
+            "ComparisonOperator": "LessThanOrEqualToThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-04-13T17:26:18.413000+05:30"
+        },
+        {
+            "AlarmName": "Intact-Ec2-construction-capacity-api-dev-env-high-CPU-Utilization",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:Intact-Ec2-construction-capacity-api-dev-env-high-CPU-Utilization",
+            "AlarmConfigurationUpdatedTimestamp": "2025-05-05T16:33:11.170000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:lambda:us-east-2:401157580704:function:Custom-email-for-EC2-and-RDS"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "INSUFFICIENT_DATA",
+            "StateReason": "Insufficient Data: 1 datapoint was unknown.",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-12-31T08:57:16.010+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[],\"threshold\":85.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-12-31T08:52:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2025-12-31T14:27:16.013000+05:30",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-0225bd10a29992095"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 85.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2025-12-31T14:27:16.013000+05:30"
+        },
+        {
+            "AlarmName": "NACL_change",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:NACL_change",
+            "AlarmDescription": "NACL changed\n!!TAKE IMMEDIATE ACTION!!",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-14T12:12:28.719000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:NACL_changes"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (14/12/23 06:38:00)] was not greater than the threshold (1.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2023-12-14T06:43:32.223+0000\",\"startDate\":\"2023-12-14T06:38:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2023-12-14T06:38:00.000+0000\",\"sampleCount\":337.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2023-12-14T12:13:32.225000+05:30",
+            "MetricName": "NACL modifed",
+            "Namespace": "NACL changes",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2023-12-14T12:13:32.225000+05:30"
+        },
+        {
+            "AlarmName": "Organizations changes",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:Organizations changes",
+            "AlarmConfigurationUpdatedTimestamp": "2025-10-14T21:51:12.576000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:IAM_Policy_changes"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "INSUFFICIENT_DATA",
+            "StateReason": "Insufficient Data: 1 datapoint was unknown.",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-06-17T11:15:46.318+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-06-17T11:10:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2026-06-17T16:45:46.321000+05:30",
+            "MetricName": "OrganizationsEvents",
+            "Namespace": "CloudTrailMetrics",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-06-17T16:45:46.321000+05:30"
+        },
+        {
+            "AlarmName": "Root user login",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:Root user login",
+            "AlarmDescription": "Intact Root user login ",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-14T11:37:49.478000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:Root_user_login_intact"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (14/12/23 06:04:00)] was not greater than or equal to the threshold (1.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2023-12-14T06:09:03.301+0000\",\"startDate\":\"2023-12-14T06:04:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2023-12-14T06:04:00.000+0000\",\"sampleCount\":214.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2023-12-14T11:39:03.305000+05:30",
+            "MetricName": "root user login",
+            "Namespace": "Root user",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2023-12-14T11:39:03.305000+05:30"
+        },
+        {
+            "AlarmName": "Route_table_changes",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:Route_table_changes",
+            "AlarmDescription": "Route table changed\n!!TAKE IMMEDIATE ACTION!!",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-14T12:14:46.483000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:Route_table_changes"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (04/02/26 16:10:00)] was not greater than the threshold (0.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-02-04T16:15:01.894+0000\",\"startDate\":\"2026-02-04T16:10:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":0.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-02-04T16:10:00.000+0000\",\"sampleCount\":362.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2026-02-04T21:45:01.896000+05:30",
+            "MetricName": "route table changes",
+            "Namespace": "Route table",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-02-04T21:45:01.896000+05:30"
+        },
+        {
+            "AlarmName": "S3_bucket_policy_changes",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:S3_bucket_policy_changes",
+            "AlarmDescription": "S3_bucket_policy_changes\n!!TAKE IMMEDIATE ACTION!!",
+            "AlarmConfigurationUpdatedTimestamp": "2025-05-21T16:28:47.086000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:S3_bucket_policy_changes"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (21/04/25 14:03:00)] was not greater than the threshold (0.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-04-21T14:08:02.664+0000\",\"startDate\":\"2025-04-21T14:03:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":0.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-04-21T14:03:00.000+0000\",\"sampleCount\":604.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2025-04-21T19:38:02.667000+05:30",
+            "MetricName": "S3_bucket_policy",
+            "Namespace": "S3_bucket_policy",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 5.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2025-04-21T19:38:02.667000+05:30"
+        },
+        {
+            "AlarmName": "VPC_changes",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:VPC_changes",
+            "AlarmDescription": "VPC_Changes\n!!TAKE IMMEDIATE ACTION!!",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-14T12:54:27.863000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:VPC_changes"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (14/12/23 07:20:00)] was not greater than the threshold (0.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2023-12-14T07:25:08.800+0000\",\"startDate\":\"2023-12-14T07:20:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":0.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2023-12-14T07:20:00.000+0000\",\"sampleCount\":246.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2023-12-14T12:55:08.803000+05:30",
+            "MetricName": "VPC_changes_Modification",
+            "Namespace": "VPC_changes",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2023-12-14T12:55:08.803000+05:30"
+        },
+        {
+            "AlarmName": "awseb-e-rf8gah3j8s-stack-AWSEBCloudwatchAlarmHigh-JKG9LRB97XHY",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:awseb-e-rf8gah3j8s-stack-AWSEBCloudwatchAlarmHigh-JKG9LRB97XHY",
+            "AlarmDescription": "ElasticBeanstalk Default Scale Up alarm",
+            "AlarmConfigurationUpdatedTimestamp": "2026-06-17T16:09:29.185000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:autoscaling:us-east-2:401157580704:scalingPolicy:e96a23d4-c904-44a5-989e-401c42723f74:autoScalingGroupName/awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingGroup-wrAbMEVVWmlS:policyName/awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingScaleUpPolicy-gyAlUeYnmVre"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 datapoint [50168.5 (17/06/26 10:35:00)] was not greater than the threshold (6000000.0).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-06-17T10:45:19.201+0000\",\"startDate\":\"2026-06-17T10:35:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[50168.5],\"threshold\":6000000.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-06-17T10:35:00.000+0000\",\"sampleCount\":4.0,\"value\":50168.5}]}",
+            "StateUpdatedTimestamp": "2026-06-17T16:15:19.204000+05:30",
+            "MetricName": "NetworkOut",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "AutoScalingGroupName",
+                    "Value": "awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingGroup-wrAbMEVVWmlS"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "Threshold": 6000000.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "StateTransitionedTimestamp": "2026-06-17T16:15:19.204000+05:30"
+        },
+        {
+            "AlarmName": "awseb-e-rf8gah3j8s-stack-AWSEBCloudwatchAlarmLow-ROOJY8H51R5Z",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:awseb-e-rf8gah3j8s-stack-AWSEBCloudwatchAlarmLow-ROOJY8H51R5Z",
+            "AlarmDescription": "ElasticBeanstalk Default Scale Down alarm",
+            "AlarmConfigurationUpdatedTimestamp": "2026-06-17T16:09:29.177000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:autoscaling:us-east-2:401157580704:scalingPolicy:eedbc01b-d1f9-4e67-8fc3-cd2c33e1504e:autoScalingGroupName/awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingGroup-wrAbMEVVWmlS:policyName/awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingScaleDownPolicy-zfu7QmKbZxXL"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "ALARM",
+            "StateReason": "Threshold Crossed: 1 datapoint [50168.5 (17/06/26 10:35:00)] was less than the threshold (2000000.0).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-06-17T10:45:41.168+0000\",\"startDate\":\"2026-06-17T10:35:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[50168.5],\"threshold\":2000000.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-06-17T10:35:00.000+0000\",\"sampleCount\":4.0,\"value\":50168.5}]}",
+            "StateUpdatedTimestamp": "2026-06-17T16:15:41.170000+05:30",
+            "MetricName": "NetworkOut",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "AutoScalingGroupName",
+                    "Value": "awseb-e-rf8gah3j8s-stack-AWSEBAutoScalingGroup-wrAbMEVVWmlS"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "Threshold": 2000000.0,
+            "ComparisonOperator": "LessThanThreshold",
+            "StateTransitionedTimestamp": "2026-06-17T16:15:41.170000+05:30"
+        },
+        {
+            "AlarmName": "awseb-e-t2wrbbxesn-stack-AWSEBCloudwatchAlarmHigh-CL8T8A7OM640",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:awseb-e-t2wrbbxesn-stack-AWSEBCloudwatchAlarmHigh-CL8T8A7OM640",
+            "AlarmDescription": "ElasticBeanstalk Default Scale Up alarm",
+            "AlarmConfigurationUpdatedTimestamp": "2026-06-17T16:28:35.911000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:autoscaling:us-east-2:401157580704:scalingPolicy:cce4291c-c829-44e1-b1b4-5cafddb58af0:autoScalingGroupName/awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H:policyName/awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingScaleUpPolicy-RqweJ9EQ7WAS"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 datapoint [92801.0 (08/06/26 11:16:00)] was not greater than the threshold (6000000.0).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-06-08T11:21:19.914+0000\",\"startDate\":\"2026-06-08T11:16:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[92801.0],\"threshold\":6000000.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-06-08T11:16:00.000+0000\",\"sampleCount\":2.0,\"value\":92801.0}]}",
+            "StateUpdatedTimestamp": "2026-06-08T16:51:19.917000+05:30",
+            "MetricName": "NetworkOut",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "AutoScalingGroupName",
+                    "Value": "awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "Threshold": 6000000.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "StateTransitionedTimestamp": "2026-06-08T16:51:19.917000+05:30"
+        },
+        {
+            "AlarmName": "awseb-e-t2wrbbxesn-stack-AWSEBCloudwatchAlarmLow-1HH5KPCY3RMY9",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:awseb-e-t2wrbbxesn-stack-AWSEBCloudwatchAlarmLow-1HH5KPCY3RMY9",
+            "AlarmDescription": "ElasticBeanstalk Default Scale Down alarm",
+            "AlarmConfigurationUpdatedTimestamp": "2026-06-17T16:28:36.152000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:autoscaling:us-east-2:401157580704:scalingPolicy:c5b7726a-96f9-4281-86b4-a2a9d9300857:autoScalingGroupName/awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H:policyName/awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingScaleDownPolicy-dNR50dBYn37l"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "ALARM",
+            "StateReason": "Threshold Crossed: 1 datapoint [885367.0 (17/06/26 10:55:00)] was less than the threshold (2000000.0).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-06-17T11:00:25.102+0000\",\"startDate\":\"2026-06-17T10:55:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[885367.0],\"threshold\":2000000.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-06-17T10:55:00.000+0000\",\"sampleCount\":1.0,\"value\":885367.0}]}",
+            "StateUpdatedTimestamp": "2026-06-17T16:30:25.104000+05:30",
+            "MetricName": "NetworkOut",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "AutoScalingGroupName",
+                    "Value": "awseb-e-t2wrbbxesn-stack-AWSEBAutoScalingGroup-vTh9QokPfQ1H"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "Threshold": 2000000.0,
+            "ComparisonOperator": "LessThanThreshold",
+            "StateTransitionedTimestamp": "2026-06-17T16:30:25.104000+05:30"
+        },
+        {
+            "AlarmName": "consolelogin_authetication_failure",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:consolelogin_authetication_failure",
+            "AlarmDescription": "consolelogin_authetication_failure",
+            "AlarmConfigurationUpdatedTimestamp": "2025-04-16T16:16:16.888000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:lambda:us-east-2:401157580704:function:Consolelogin_authentication_failures",
+                "arn:aws:sns:us-east-2:401157580704:Consolelogin_authentication_failures"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (04/02/26 16:10:00)] was not greater than the threshold (0.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-02-04T16:15:06.676+0000\",\"startDate\":\"2026-02-04T16:10:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":0.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-02-04T16:10:00.000+0000\",\"sampleCount\":362.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2026-02-04T21:45:06.678000+05:30",
+            "MetricName": "Consolelogin authentication failures",
+            "Namespace": "consolelogin",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-02-04T21:45:06.678000+05:30"
+        },
+        {
+            "AlarmName": "consolelogin_without_MFA",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:consolelogin_without_MFA",
+            "AlarmDescription": "user_consolelogin_without_MFA",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-14T13:06:06.259000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:Consolelogin_without_MFA"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (03/11/25 14:12:00)] was not greater than the threshold (0.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2025-11-03T14:17:31.887+0000\",\"startDate\":\"2025-11-03T14:12:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":0.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2025-11-03T14:12:00.000+0000\",\"sampleCount\":232.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2025-11-03T19:47:31.889000+05:30",
+            "MetricName": "Consolelogin without MFA",
+            "Namespace": "consolelogin",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2025-11-03T19:47:31.889000+05:30"
+        },
+        {
+            "AlarmName": "customer_managed_keys_changes",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:customer_managed_keys_changes",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-14T13:20:50.205000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:customer_managed_keys_changes"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (14/12/23 07:47:00)] was not greater than the threshold (1.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2023-12-14T07:52:06.567+0000\",\"startDate\":\"2023-12-14T07:47:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2023-12-14T07:47:00.000+0000\",\"sampleCount\":316.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2023-12-14T13:22:06.570000+05:30",
+            "MetricName": "customer_managed_keys_changes",
+            "Namespace": "customer_managed_keys",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2023-12-14T13:22:06.570000+05:30"
+        },
+        {
+            "AlarmName": "network_gateways_changes",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:network_gateways_changes",
+            "AlarmDescription": "network_gateways_changes\n!!TAKE IMMEDIATE ACTION!!",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-14T12:12:41.733000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:network_gateways_modified"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (14/05/26 14:44:00)] was not greater than the threshold (0.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-05-14T14:49:20.956+0000\",\"startDate\":\"2026-05-14T14:44:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":0.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-05-14T14:44:00.000+0000\",\"sampleCount\":2355.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2026-05-14T20:19:20.957000+05:30",
+            "MetricName": "network_gateways_Modified",
+            "Namespace": "network_gateways_changes",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-05-14T20:19:20.957000+05:30"
+        },
+        {
+            "AlarmName": "security group change",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:security group change",
+            "AlarmDescription": "Security group modified\n!!TAKE IMMEDIATE ACTION!!",
+            "AlarmConfigurationUpdatedTimestamp": "2023-12-14T11:55:38.336000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:security_group_change"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.0 (04/06/26 14:38:00)] was not greater than the threshold (0.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-06-04T14:43:50.525+0000\",\"startDate\":\"2026-06-04T14:38:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.0],\"threshold\":0.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-06-04T14:38:00.000+0000\",\"sampleCount\":4339.0,\"value\":0.0}]}",
+            "StateUpdatedTimestamp": "2026-06-04T20:13:50.528000+05:30",
+            "MetricName": "security group changes",
+            "Namespace": "security group",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 0.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-06-04T20:13:50.528000+05:30"
+        },
+        {
+            "AlarmName": "unauthorized-apicall",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-2:401157580704:alarm:unauthorized-apicall",
+            "AlarmConfigurationUpdatedTimestamp": "2026-03-02T23:54:57.206000+05:30",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-2:401157580704:unauthorized_apicall"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: 1 out of the last 1 datapoints [0.001607717041800643 (02/03/26 18:20:00)] was not greater than or equal to the threshold (50.0) (minimum 1 datapoint for ALARM -> OK transition).",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-03-02T18:25:42.574+0000\",\"startDate\":\"2026-03-02T18:20:00.000+0000\",\"statistic\":\"Average\",\"period\":300,\"recentDatapoints\":[0.001607717041800643],\"threshold\":50.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-03-02T18:20:00.000+0000\",\"sampleCount\":622.0,\"value\":0.001607717041800643}]}",
+            "StateUpdatedTimestamp": "2026-03-02T23:55:42.576000+05:30",
+            "MetricName": "unauthorized api call",
+            "Namespace": "api calls",
+            "Statistic": "Average",
+            "Dimensions": [],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 50.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "2026-03-02T23:55:42.576000+05:30"
+        }
+    ],
+    "CompositeAlarms": []
+}
+         
+ 
+ 

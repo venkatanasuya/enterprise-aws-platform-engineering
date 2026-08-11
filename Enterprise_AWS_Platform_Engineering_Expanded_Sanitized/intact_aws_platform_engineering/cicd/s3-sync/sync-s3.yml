@@ -1,0 +1,31 @@
+name: Sync S3
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install package
+        run: pip install <PRIVATE_PACKAGE_NAME>
+
+      - uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::<AWS_ACCOUNT_ID>:role/<WORKLOAD_ROLE>
+          aws-region: <AWS_REGION>
+
+      - name: Sync
+        run: |
+          aws s3 sync . s3://<S3_BUCKET_NAME>/             --exclude ".git/*"             --exclude "tests/*"             --exclude "docs/*"

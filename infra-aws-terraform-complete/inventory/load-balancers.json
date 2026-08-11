@@ -1,0 +1,118 @@
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:loadbalancer/net/ConstructionCapacity-api-dev-nlb/b9f62a0723a6ad66",
+            "DNSName": "ConstructionCapacity-api-dev-nlb-b9f62a0723a6ad66.elb.us-east-2.amazonaws.com",
+            "CanonicalHostedZoneId": "ZLMOA37VPKANP",
+            "CreatedTime": "2021-12-30T11:24:16.982000+00:00",
+            "LoadBalancerName": "ConstructionCapacity-api-dev-nlb",
+            "Scheme": "internal",
+            "VpcId": "vpc-056be321b2abea9e8",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-2b",
+                    "SubnetId": "subnet-0bbffd1611e131f53",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-2a",
+                    "SubnetId": "subnet-0f50257b665d9cc1b",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:loadbalancer/net/constructioncapacityapi-prod-nlb/e9184833c2c1b7fc",
+            "DNSName": "constructioncapacityapi-prod-nlb-e9184833c2c1b7fc.elb.us-east-2.amazonaws.com",
+            "CanonicalHostedZoneId": "ZLMOA37VPKANP",
+            "CreatedTime": "2022-01-13T12:59:44.659000+00:00",
+            "LoadBalancerName": "constructioncapacityapi-prod-nlb",
+            "Scheme": "internal",
+            "VpcId": "vpc-0773253bc4daca414",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "network",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-2b",
+                    "SubnetId": "subnet-0af3fca3903c44b7e",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-2a",
+                    "SubnetId": "subnet-0f46b98038512ea32",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:loadbalancer/app/awseb-AWSEB-ZO7QRX88VT24/c0eb7e5c284721e3",
+            "DNSName": "internal-awseb-AWSEB-ZO7QRX88VT24-200161869.us-east-2.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z3AADJGX6KTTL2",
+            "CreatedTime": "2021-12-30T12:00:18.740000+00:00",
+            "LoadBalancerName": "awseb-AWSEB-ZO7QRX88VT24",
+            "Scheme": "internal",
+            "VpcId": "vpc-056be321b2abea9e8",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-2b",
+                    "SubnetId": "subnet-0f21c4a72ec8443b0",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-2a",
+                    "SubnetId": "subnet-0f50257b665d9cc1b",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0721a3e0f69333439"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        },
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-2:401157580704:loadbalancer/app/awseb-AWSEB-15YB24HYGYPZE/acee8aa2180f09e0",
+            "DNSName": "internal-awseb-AWSEB-15YB24HYGYPZE-2144831699.us-east-2.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z3AADJGX6KTTL2",
+            "CreatedTime": "2022-08-09T18:14:48.710000+00:00",
+            "LoadBalancerName": "awseb-AWSEB-15YB24HYGYPZE",
+            "Scheme": "internal",
+            "VpcId": "vpc-0773253bc4daca414",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-2a",
+                    "SubnetId": "subnet-0ad7ce7b0c00729fb",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-2b",
+                    "SubnetId": "subnet-0dbba8fd08a1a670c",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0f5616250eb4610eb"
+            ],
+            "IpAddressType": "ipv4",
+            "EnablePrefixForIpv6SourceNat": "off"
+        }
+    ]
+}

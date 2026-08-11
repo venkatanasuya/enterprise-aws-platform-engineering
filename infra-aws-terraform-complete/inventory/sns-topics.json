@@ -1,0 +1,154 @@
+{
+    "Topics": [
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:ALL_TOPICS_DEFAULT"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:CloudTrail_AWS_Configuration_changes"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:Cloud_Formation_Event_Notification"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:Config_configuration_changes"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:Consolelogin_authentication_failures"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:Consolelogin_without_MFA"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:GuardDuty-Alerts"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:IAM_Policy_changes"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_ALB_awseb-AWSEB-15YB24HYGYPZE_5XXs_P1"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_ALB_awseb-AWSEB-ZO7QRX88VT24_5XXs_P2"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_APIgateway_construction-capacity-api-Sapiens_4xxError_P2"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_APIgateway_construction-capacity-api-Sapiens_5xxError_P2"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_APIgateway_construction-capacity-api-prod-Sapiens_4xxError_P1"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_APIgateway_construction-capacity-api-prod-Sapiens_5xxError_P1"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_EC2_Availability_P1"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_EC2_Powerbi-Desktop-new_CPUUtilization_PSteam"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_EC2_Powerbi-Desktop-prod-new_CPUUtilization_PSteam"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_ElasticBeanstalk_Prodconstructioncapacityapi-env_Health_P2"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_ElasticBeanstalk_construction-capacity-api-dev-env_Health_P2"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_GLUE_job_state_change"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_IAM_changes_P1"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_Lambda_Construction-job-trigger-prod_Errors_P1"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_Lambda_DevConstructionLambdaFunc_Errors_P2"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_RDS_Availability"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_RDS_ark-construction-db-dev_CPUUtilization_PSteam"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_RDS_ark-construction-db-dev_Disk_P2"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_RDS_ark-construction-db-prod_CPUUtilization_PSteam"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_RDS_constructioncapacityapi-db-dev_CPUUtilization_PSteam"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_RDS_constructioncapacityapi-db-prod_CPUUtilization_PSteam"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_SSM-Powerbi-Desktop-new-Patching"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_Security_hub_summary"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:INTACT_VPN_Intact-vpn_TunnelState_P1"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:Intact-Alerts"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:Intact_console_login"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:NACL_changes"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:Root_user_login_intact"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:RouteTableChangesAlerts"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:Route_table_changes"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:S3_Event_Notification"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:S3_bucket_policy_changes"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:SecurityHubAlerts"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:VPC_changes"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:Weely_Resources-Report"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:aws-cloudtrail-logs-snsnotificationdelivery"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:customer_managed_keys_changes"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:network_gateways_modified"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:rds-security-group-events-subscription"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:security_group_change"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:test-topic-jsm"
+        },
+        {
+            "TopicArn": "arn:aws:sns:us-east-2:401157580704:unauthorized_apicall"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "migration_status": "IN_PROGRESS",
+  "source": "<SOURCE_ENVIRONMENT>",
+  "target": "<TARGET_ENVIRONMENT>",
+  "region": "<AWS_REGION>",
+  "instances": [
+    {
+      "instance_id": "<INSTANCE_ID>",
+      "ami_id": "<AMI_ID>",
+      "instance_type": "<INSTANCE_TYPE>",
+      "vpc_id": "<VPC_ID>",
+      "subnet_id": "<SUBNET_ID>",
+      "security_groups": ["<SECURITY_GROUP_ID>"],
+      "iam_instance_profile": "<IAM_PROFILE>",
+      "ebs_volumes": [
+        {
+          "device": "<DEVICE>",
+          "volume_id": "<VOLUME_ID>",
+          "encrypted": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+variable "rules" { type=any default={
+  "rslvr_autodefined_rr_internet_resolver": {
+    "Id": "rslvr-autodefined-rr-internet-resolver",
+    "CreatorRequestId": "",
+    "Arn": "arn:aws:route53resolver:us-east-2::autodefined-rule/rslvr-autodefined-rr-internet-resolver",
+    "DomainName": ".",
+    "Status": "COMPLETE",
+    "RuleType": "RECURSIVE",
+    "Name": "Internet Resolver",
+    "OwnerId": "Route 53 Resolver",
+    "ShareStatus": "NOT_SHARED"
+  }
+} }

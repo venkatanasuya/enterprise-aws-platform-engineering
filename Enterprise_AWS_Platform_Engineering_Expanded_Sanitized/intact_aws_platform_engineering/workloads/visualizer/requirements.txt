@@ -1,0 +1,2 @@
+# Application dependencies are supplied by the consuming project.
+# Keep this reference dependency-free for portfolio use.

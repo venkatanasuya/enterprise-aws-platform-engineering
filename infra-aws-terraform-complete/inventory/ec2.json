@@ -1,0 +1,50 @@
+{
+    "Environments": [
+        {
+            "EnvironmentName": "Prodconstructioncapacityapi-env",
+            "EnvironmentId": "e-t2wrbbxesn",
+            "ApplicationName": "prod-construction-capacity-api",
+            "VersionLabel": "construction-capacity-api-image",
+            "SolutionStackName": "64bit Amazon Linux 2023 v4.13.2 running Docker",
+            "PlatformArn": "arn:aws:elasticbeanstalk:us-east-2::platform/Docker running on 64bit Amazon Linux 2023/4.13.2",
+            "EndpointURL": "internal-awseb-AWSEB-15YB24HYGYPZE-2144831699.us-east-2.elb.amazonaws.com",
+            "CNAME": "prodconstructioncapacityapi-env.us-east-2.elasticbeanstalk.com",
+            "DateCreated": "2022-08-05T13:19:41.638000+00:00",
+            "DateUpdated": "2026-06-17T11:01:14.578000+00:00",
+            "Status": "Ready",
+            "AbortableOperationInProgress": false,
+            "Health": "Green",
+            "HealthStatus": "Ok",
+            "Tier": {
+                "Name": "WebServer",
+                "Type": "Standard",
+                "Version": "1.0"
+            },
+            "EnvironmentLinks": [],
+            "EnvironmentArn": "arn:aws:elasticbeanstalk:us-east-2:401157580704:environment/prod-construction-capacity-api/Prodconstructioncapacityapi-env"
+        },
+        {
+            "EnvironmentName": "construction-capacity-api-dev-env",
+            "EnvironmentId": "e-rf8gah3j8s",
+            "ApplicationName": "Construction-Capacity-API-Dev",
+            "VersionLabel": "construction-capacity-api-image",
+            "SolutionStackName": "64bit Amazon Linux 2023 v4.13.2 running Docker",
+            "PlatformArn": "arn:aws:elasticbeanstalk:us-east-2::platform/Docker running on 64bit Amazon Linux 2023/4.13.2",
+            "EndpointURL": "internal-awseb-AWSEB-ZO7QRX88VT24-200161869.us-east-2.elb.amazonaws.com",
+            "CNAME": "construction-capacity-api-dev-env.us-east-2.elasticbeanstalk.com",
+            "DateCreated": "2021-12-30T11:59:59.726000+00:00",
+            "DateUpdated": "2026-06-17T10:43:09.918000+00:00",
+            "Status": "Ready",
+            "AbortableOperationInProgress": false,
+            "Health": "Green",
+            "HealthStatus": "Ok",
+            "Tier": {
+                "Name": "WebServer",
+                "Type": "Standard",
+                "Version": "1.0"
+            },
+            "EnvironmentLinks": [],
+            "EnvironmentArn": "arn:aws:elasticbeanstalk:us-east-2:401157580704:environment/Construction-Capacity-API-Dev/construction-capacity-api-dev-env"
+        }
+    ]
+}

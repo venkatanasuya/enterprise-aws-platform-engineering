@@ -1,0 +1,58 @@
+{
+    "NatGateways": [
+        {
+            "CreateTime": "2021-12-07T02:03:58+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-044f37e5cf0150d50",
+                    "NetworkInterfaceId": "eni-0ce4f408ae77b2fbc",
+                    "PrivateIp": "10.0.0.63",
+                    "PublicIp": "3.131.218.92",
+                    "AssociationId": "eipassoc-019002222284b58c1",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-032066e7e1c3d67a4",
+            "State": "available",
+            "SubnetId": "subnet-0eb29715621020950",
+            "VpcId": "vpc-056be321b2abea9e8",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "dev-vpc-NAT"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        },
+        {
+            "CreateTime": "2022-01-11T13:34:00+00:00",
+            "NatGatewayAddresses": [
+                {
+                    "AllocationId": "eipalloc-066cbe1ed41bb62a3",
+                    "NetworkInterfaceId": "eni-084ae9f1eb8f39e7b",
+                    "PrivateIp": "10.1.0.121",
+                    "PublicIp": "18.223.251.189",
+                    "AssociationId": "eipassoc-04262a727f9592478",
+                    "IsPrimary": true,
+                    "Status": "succeeded"
+                }
+            ],
+            "NatGatewayId": "nat-06465d3700d7d8337",
+            "State": "available",
+            "SubnetId": "subnet-0ad7ce7b0c00729fb",
+            "VpcId": "vpc-0773253bc4daca414",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "prod-vpc-NAT"
+                }
+            ],
+            "ConnectivityType": "public",
+            "AvailabilityMode": "zonal",
+            "AttachedAppliances": []
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+aws_region = "us-east-2"
+# Change this when targeting a different account.
+target_account_id = "401157580704"
+environment_name = "construction"
+
+# Current inventory values are embedded as module defaults.
+# Override target values here as needed.
+common_tags = {}

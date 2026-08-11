@@ -1,0 +1,56 @@
+variable "items" { type=any default={
+  "default_postgres_11": {
+    "OptionGroupName": "default:postgres-11",
+    "OptionGroupDescription": "Default option group for postgres 11",
+    "EngineName": "postgres",
+    "MajorEngineVersion": "11",
+    "Options": [],
+    "AllowsVpcAndNonVpcInstanceMemberships": true,
+    "OptionGroupArn": "arn:aws:rds:us-east-2:401157580704:og:default:postgres-11"
+  },
+  "default_postgres_13": {
+    "OptionGroupName": "default:postgres-13",
+    "OptionGroupDescription": "Default option group for postgres 13",
+    "EngineName": "postgres",
+    "MajorEngineVersion": "13",
+    "Options": [],
+    "AllowsVpcAndNonVpcInstanceMemberships": true,
+    "OptionGroupArn": "arn:aws:rds:us-east-2:401157580704:og:default:postgres-13"
+  },
+  "default_postgres_14": {
+    "OptionGroupName": "default:postgres-14",
+    "OptionGroupDescription": "Default option group for postgres 14",
+    "EngineName": "postgres",
+    "MajorEngineVersion": "14",
+    "Options": [],
+    "AllowsVpcAndNonVpcInstanceMemberships": true,
+    "OptionGroupArn": "arn:aws:rds:us-east-2:401157580704:og:default:postgres-14"
+  },
+  "default_postgres_15": {
+    "OptionGroupName": "default:postgres-15",
+    "OptionGroupDescription": "Default option group for postgres 15",
+    "EngineName": "postgres",
+    "MajorEngineVersion": "15",
+    "Options": [],
+    "AllowsVpcAndNonVpcInstanceMemberships": true,
+    "OptionGroupArn": "arn:aws:rds:us-east-2:401157580704:og:default:postgres-15"
+  },
+  "default_postgres_17": {
+    "OptionGroupName": "default:postgres-17",
+    "OptionGroupDescription": "Default option group for postgres 17",
+    "EngineName": "postgres",
+    "MajorEngineVersion": "17",
+    "Options": [],
+    "AllowsVpcAndNonVpcInstanceMemberships": true,
+    "OptionGroupArn": "arn:aws:rds:us-east-2:401157580704:og:default:postgres-17"
+  },
+  "default_postgres_18": {
+    "OptionGroupName": "default:postgres-18",
+    "OptionGroupDescription": "Default option group for postgres 18",
+    "EngineName": "postgres",
+    "MajorEngineVersion": "18",
+    "Options": [],
+    "AllowsVpcAndNonVpcInstanceMemberships": true,
+    "OptionGroupArn": "arn:aws:rds:us-east-2:401157580704:og:default:postgres-18"
+  }
+} }

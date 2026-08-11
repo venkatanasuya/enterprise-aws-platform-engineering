@@ -1,0 +1,3452 @@
+{
+    "Snapshots": [
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2024-01-31T05:57:26.252000+00:00",
+            "FullSnapshotSizeInBytes": 4730650624,
+            "SnapshotId": "snap-065450dfc6789b047",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2024-01-31T05:53:44.328000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-03c65bb7428dd0358 from us-east-2] Bastion-linux-prod-encryption",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2023-12-15T08:06:39.582000+00:00",
+            "FullSnapshotSizeInBytes": 41687711744,
+            "SnapshotId": "snap-02ab27451f38429bd",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2023-12-15T08:02:14.328000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-0c927443889c8d74c from us-east-2] for encryption",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-12-31T08:29:57.380000+00:00",
+            "FullSnapshotSizeInBytes": 4393009152,
+            "SnapshotId": "snap-0085d149b46a6d490",
+            "VolumeId": "vol-0a9df0371f2e0f4a9",
+            "State": "completed",
+            "StartTime": "2025-12-31T08:28:52.103000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0225bd10a29992095) for ami-01bad0f9bdde38819",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-10-09T11:58:10.169000+00:00",
+            "FullSnapshotSizeInBytes": 4379901952,
+            "SnapshotId": "snap-0c8ef08cb82e2f540",
+            "VolumeId": "vol-0a9df0371f2e0f4a9",
+            "State": "completed",
+            "StartTime": "2025-10-09T11:53:59.957000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-08-18T14:42:39.398000+00:00",
+            "FullSnapshotSizeInBytes": 4730650624,
+            "SnapshotId": "snap-0c7be7216f1614b39",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-08-18T14:42:36.566000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-03c65bb7428dd0358 from us-east-2] Bastion-linux-prod-encryption",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-08-18T14:42:03.046000+00:00",
+            "FullSnapshotSizeInBytes": 35032399872,
+            "SnapshotId": "snap-0ce8c5b18b5e58bc7",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-08-18T14:41:53.161000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-03703fc4adfcf28b8 from us-east-2] Created by CreateImage(i-0955de655ba87fbd5) for ami-008c16fcef5a6dc0c",
+            "VolumeSize": 100,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-07-25T10:20:41.874000+00:00",
+            "FullSnapshotSizeInBytes": 41687711744,
+            "SnapshotId": "snap-0d370c9024bd83480",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-07-25T10:03:40.386000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-0c927443889c8d74c from us-east-2] for encryption",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-07-25T09:53:32.240000+00:00",
+            "FullSnapshotSizeInBytes": 4730650624,
+            "SnapshotId": "snap-0258c506030db5614",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-07-25T09:53:28.189000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-03c65bb7428dd0358 from us-east-2] Bastion-linux-prod-encryption",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-07-25T10:02:26.746000+00:00",
+            "FullSnapshotSizeInBytes": 35032399872,
+            "SnapshotId": "snap-019ffa17d36e00cc4",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-07-25T09:51:54.207000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-03703fc4adfcf28b8 from us-east-2] Created by CreateImage(i-0955de655ba87fbd5) for ami-008c16fcef5a6dc0c",
+            "VolumeSize": 100,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:05B008AB-8D3E-D481-E456-66A5A7006645"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-07-03T04:25:14.336000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-055484d809bfe7896",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-07-03T04:12:31.933000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-041171263d4fe0806",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:A840A097-3A33-AEC1-C39B-6DF2A9619C4A"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-07-02T04:39:24.860000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-04b42f34c6bab63ed",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-07-02T04:10:12.817000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-0cf75dfceb5451e4e",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:A70D7B91-A815-FED0-9A4D-711B05C438EA"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-07-01T04:30:41.515000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-00e5ae1359a274b1e",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-07-01T04:09:05.542000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-02b37778162279312",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:D8AD7180-7EF7-540F-3E27-EA5CCFF09F7C"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-30T04:29:17.302000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-04896073d2140308e",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-30T04:07:03.534000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-06cffc86697c60e24",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:62E3C0DE-05B5-6EA4-D171-0DAA3B8D8A36"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-29T04:31:56.649000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-004f311d5f6f0c6d9",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-29T04:08:54.309000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-0d3c000caafcc05e3",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:009041B4-7AA3-F950-C1E4-6FE3B642BB5B"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-28T04:26:59.216000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-0f783a3dc50d94def",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-28T04:06:15.291000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-058fa0235267b0987",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:9F53AF23-B0B3-2B5A-8EB3-9853A11FC8DC"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-27T04:27:46.794000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-0c3aab1585b5de5cf",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-27T04:05:21.216000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-057017d4e30a0ea3c",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:C90F6D5B-D43A-CFCA-A5F0-2BA33A375CFB"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-26T04:26:56.177000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-0d663e050dc8a5d9c",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-26T04:06:19.388000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-05eac9274deb765ed",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:02F8D527-3B51-81CC-A5E7-360F08C397DB"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-25T04:31:59.144000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-031d9165dc2dedfdb",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-25T04:10:35.465000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-00cd058759cfab4fe",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:9481A84E-E0B0-8EF3-27E4-943E553C2CAA"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-24T04:27:39.745000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-05a49d80975e86a42",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-24T04:07:06.379000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-0eb72520f8eabb17d",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:20D18160-1372-915F-B852-AD759F9A2782"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-23T04:28:38.552000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-071e2f7adb92d8c76",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-23T04:07:57.374000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-060b38646ab22fd2b",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:7E62D7BB-FA8F-5014-B033-C7F7A46E3F8A"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-22T04:32:15.691000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-0b4bc694a9b9379af",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-22T04:11:19.519000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-0e7eabf05ad6e9c56",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:3D5741D1-9579-A7B3-EA08-4508FAD0A397"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-21T04:31:28.724000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-04b24d0aeb1f1a2a9",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-21T04:08:45.418000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-0ca7559a098d4cc28",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:B3A54241-3FD9-0B86-A80C-B3BD1F0ACA66"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-20T04:28:26.862000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-07ffdba69ea4eb6fa",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-20T04:07:55.631000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-07907ee2e72927a8e",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:18746D46-56EF-B4EF-D88E-995390EDDD66"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-19T04:31:10.231000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-0a4b68d9b9cee3571",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-19T04:09:42.635000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-06e541541ca4cde35",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:0E50B46A-CE41-DBA7-FF36-E038D80AD230"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-18T04:34:26.543000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-04c6f4ca8efe3c4b0",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-18T04:11:45.735000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-0d7d751efbcd792af",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:D187896A-4A62-761A-1AB8-57F6E8335226"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-17T04:27:16.001000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-045841321d02634f9",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-17T04:07:46.443000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-0200ef8d16313dfad",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:2BBF33A0-558D-7AB2-1172-0448AEAB9485"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-16T04:39:49.876000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-0b9ccc8f0c2eee993",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-16T04:10:40.397000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-0aa3b56380944e544",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:1DBCC2F3-D3A7-CB30-56EA-685FD46F42FA"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-15T04:25:21.119000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-002f78a2f6de9b1f9",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-15T04:08:28.592000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-08ee3f3b0536e47f8",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:707943CB-779E-8B47-C846-1AD76A69975B"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-14T04:22:09.800000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-0ad3d6c17f0538266",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-14T04:06:03.183000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-08997ba6735009dd7",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0c93e509ed5de753b:E7136A94-D8F2-646D-4A87-21E306255AE8"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-13T04:24:22.066000+00:00",
+            "FullSnapshotSizeInBytes": 75108450304,
+            "SnapshotId": "snap-09d30edb063dff1a8",
+            "VolumeId": "vol-0db9bbf5716307d34",
+            "State": "completed",
+            "StartTime": "2026-06-13T04:08:34.562000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0c93e509ed5de753b) for ami-0f1ccd2422bfa8c78",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-03T10:17:13.465000+00:00",
+            "FullSnapshotSizeInBytes": 4334288896,
+            "SnapshotId": "snap-0c60ef19f7365540d",
+            "VolumeId": "vol-07c195fe762c9328c",
+            "State": "completed",
+            "StartTime": "2026-06-03T10:12:36.598000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-07d9e94004f4fca15) for ami-0cf796bb661564b16",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-03-03T14:25:24.375000+00:00",
+            "FullSnapshotSizeInBytes": 3773300736,
+            "SnapshotId": "snap-0162dfddac05da577",
+            "VolumeId": "vol-06dd079c3977635fd",
+            "State": "completed",
+            "StartTime": "2026-03-03T14:21:23.678000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-01-28T15:56:58.318000+00:00",
+            "FullSnapshotSizeInBytes": 3711434752,
+            "SnapshotId": "snap-08fe0baf2f3bd2355",
+            "VolumeId": "vol-0404a658267c5ab0e",
+            "State": "completed",
+            "StartTime": "2026-01-28T15:53:11.290000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "vol-0404a658267c5ab0e-28-01-26",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2024-01-25T06:52:30.033000+00:00",
+            "FullSnapshotSizeInBytes": 4967628800,
+            "SnapshotId": "snap-0ebfe43fa966912a5",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2024-01-25T06:48:56.374000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-0f5774c4dba2264c2 from us-east-2] bastion-linux-dev-encryption",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-07-25T10:17:19.136000+00:00",
+            "FullSnapshotSizeInBytes": 58136199168,
+            "SnapshotId": "snap-05232d17ee11bbc52",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-07-25T10:04:14.464000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-0a222c1baf8c7f592 from us-east-2] Created by CreateImage(i-0014a66ded9237a7d) for ami-013a7030bbb68bc86",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-07-25T10:03:13.548000+00:00",
+            "FullSnapshotSizeInBytes": 4967628800,
+            "SnapshotId": "snap-036f7add8a46edb68",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-07-25T10:03:10.069000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-0f5774c4dba2264c2 from us-east-2] bastion-linux-dev-encryption",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:AABB734E-B972-353A-4C4D-02C38C1F2D15"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-07-03T02:15:00.443000+00:00",
+            "FullSnapshotSizeInBytes": 5987368960,
+            "SnapshotId": "snap-04472144318dc1fdc",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-07-03T02:14:12.128000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-0164822019bb32221",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:09EF8E10-6705-A16C-2C6E-7F12970B44ED"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-07-02T02:20:34.452000+00:00",
+            "FullSnapshotSizeInBytes": 5987368960,
+            "SnapshotId": "snap-088f34ff8510a30a0",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-07-02T02:19:26.147000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-004c64a441115097c",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:1DE290AE-A753-84B0-CD90-2DDBF2DED010"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-07-01T02:17:08.642000+00:00",
+            "FullSnapshotSizeInBytes": 5987368960,
+            "SnapshotId": "snap-0b06617a1a904258f",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-07-01T02:15:07.137000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-048f5fa40a1588751",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:3142FBAC-4EFF-7E85-672E-5F9AC8D65983"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-30T02:13:49.196000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-0f02ed7214ad49a86",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-30T02:12:44.003000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-0bebb398c7f19df37",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:0CEFE616-6090-26B1-254E-3EB3B7D7F715"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-29T02:16:58.118000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-0372a181539fea70f",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-29T02:15:51.838000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-0947171db209cb1ab",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:AF2793C8-76F6-C129-2436-D84712E1E950"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-28T02:12:41.354000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-025ea77ad8429b165",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-28T02:11:52.742000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-00b226ec15652ff5a",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:0E2000E4-C032-9B3B-60D4-41B7AE870129"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-27T02:13:12.493000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-09e72f90317a4c2a9",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-27T02:12:07.946000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-007709d04b44984fa",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:878CCF8C-D782-01F5-56C1-9C29570948D1"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-26T02:11:24.615000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-05b75c29607d3e8b8",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-26T02:10:18.979000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-0d02d464b836bd09b",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:3D994DA3-D07B-284A-3A64-FAE9F4FF219B"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-25T02:17:12.249000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-07efa124ced795199",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-25T02:15:19.740000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-0b639d813ee7664dc",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:0DAA8F50-B374-B417-CC5E-B98761A2326B"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-24T02:20:52.181000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-01d8e39b89d92930e",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-24T02:19:01.095000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-03ae3a4974d487b89",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:46CAF049-5982-D80F-B392-1FFDB2CD2A38"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-23T02:16:14.934000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-0c78e0015417bb0b3",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-23T02:15:08.969000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-063278cf9dd1a2c7f",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:7CAA10CF-CEF2-C2B7-C296-CC2A6671936D"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-22T02:14:30.422000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-0b8db1b6a8ee7d41e",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-22T02:13:25.012000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-07ee7caaf3c538d4d",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:BE16566D-51E6-B598-2194-184E88303AEB"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-21T02:14:27.947000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-0df9bbea69378c66e",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-21T02:13:21.988000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-094567e7be4bf048f",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:7D2DEDAD-2C71-E17C-D8D4-26A2164CBA4A"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-20T02:11:49.161000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-0b45da99040913ead",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-20T02:10:45.757000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-0da1f578edaf6cc24",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:95F52EEA-0E2E-30BD-F193-006CA06D74A7"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-19T02:19:26.934000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-0e583746793349fc9",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-19T02:18:22.321000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-09bb99753c8180d27",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:5F7C1569-F864-6CAE-A23C-588E910FD061"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-18T02:16:18.889000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-07d9dc6491ba5f5ae",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-18T02:15:28.681000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-0c28f3001be50d66a",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:43F75ECB-7FD6-DF09-29A9-8F6062BDEE14"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-17T02:14:41.232000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-0420a97ba9df290df",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-17T02:13:34.766000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-0a7e6bc98cf02be4e",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:928EC239-9CC8-57D0-DE96-6B9CB347AF52"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-16T02:13:09.998000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-0c11b4d241a8692e9",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-16T02:12:06.667000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-036e248cabb13ebe7",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:FCE1F0C5-06C4-85BF-FFC7-5C6B6774C003"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-15T02:13:56.958000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-01848e3bfc700a0cf",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-15T02:12:52.981000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-0c1bc0cbb2a5ae0c9",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:13840176-CDB8-76C4-4E4C-744F87E9F311"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-14T02:12:24.583000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-016dd59484ea9e02b",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-14T02:11:30.778000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-08d1296df676a6a6c",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0925b39208a811c79:265E7BAE-F54A-0BDB-F570-48F750B46345"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-13T02:14:57.181000+00:00",
+            "FullSnapshotSizeInBytes": 5872025600,
+            "SnapshotId": "snap-0a657a60b319361ac",
+            "VolumeId": "vol-0e470cde46651f157",
+            "State": "completed",
+            "StartTime": "2026-06-13T02:13:48.903000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0925b39208a811c79) for ami-0e0a8d4d787d206a0",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-02-24T11:47:07.079000+00:00",
+            "FullSnapshotSizeInBytes": 3860856832,
+            "SnapshotId": "snap-00a0ddd1b1920d353",
+            "VolumeId": "vol-089f936a0cc054d5c",
+            "State": "completed",
+            "StartTime": "2026-02-24T11:45:46.898000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0156473b5abc24a41) for ami-05e7b579ccd975c07",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-02-05T12:22:47.051000+00:00",
+            "FullSnapshotSizeInBytes": 3661103104,
+            "SnapshotId": "snap-0d988979c0cb609fc",
+            "VolumeId": "vol-089f936a0cc054d5c",
+            "State": "completed",
+            "StartTime": "2026-02-05T12:18:49.459000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-01-28T15:59:00.914000+00:00",
+            "FullSnapshotSizeInBytes": 3657433088,
+            "SnapshotId": "snap-03f699e8016984ffb",
+            "VolumeId": "vol-0bc91ff5273a5dd2f",
+            "State": "completed",
+            "StartTime": "2026-01-28T15:55:33.426000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "vol-0bc91ff5273a5dd2f-28-01-26",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2024-01-25T07:13:07.017000+00:00",
+            "FullSnapshotSizeInBytes": 47310700544,
+            "SnapshotId": "snap-00e3b273b467e2e65",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2024-01-25T07:07:01.089000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-0ca1aac621b8c006b from us-east-2] powerbi-desktop-new-encryption",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-07-25T10:12:48.153000+00:00",
+            "FullSnapshotSizeInBytes": 47310700544,
+            "SnapshotId": "snap-02ea9f7391bb72545",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-07-25T10:02:50.141000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-0ca1aac621b8c006b from us-east-2] powerbi-desktop-new-encryption",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:487915B4-B2E2-7394-5D37-D789B453C251"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-07-02T01:36:14.012000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-0134139b41fcea49c",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-07-02T01:33:35.129000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-09e8339b8288e6a13",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:6F3E2C96-491D-90B9-2A58-1511F5010440"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-29T01:36:36.285000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-00c9e030be238deeb",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-29T01:32:25.069000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-0755e8fdca52f8d44",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:0D5F0F82-320E-1393-8075-69F2F7F57378"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-28T01:33:51.354000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-02ceee85c2fa4e97f",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-28T01:31:13.721000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-09f72f170c511f0af",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:41507417-A8D6-7A75-3695-C47E1D4C8346"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-27T01:38:54.854000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-0359a71cdbd14e3fb",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-27T01:36:33.891000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-018aa29ccf3c3021c",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:B1CC5A1D-EE27-648D-C5F5-8DECD8490016"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-25T01:50:25.464000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-0b0c60ea3843f6550",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-25T01:37:43.745000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-0868cbc8dd07da775",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:D9FE542F-410C-6BD5-DA7E-7A75248EEF47"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-21T01:41:20.496000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-01ff6e25aa464e702",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-21T01:36:40.126000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-0bf18ae0343433f4c",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:6C21788A-7F87-98ED-580F-7E9AE89DBF83"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-17T01:38:03.708000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-000a5f5ee174e0ce0",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-17T01:31:26.426000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-00c2738b55843e73f",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:1AD158E0-35AD-B832-44AB-F338D06F56D8"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-16T01:39:00.490000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-0909f67ec1b62fd45",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-16T01:35:21.823000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-0c2b0b08dbf5a431c",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:F62ECD1F-AD29-E402-5DC1-D23693DA7191"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-15T01:36:59.666000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-030ded2c8301a0102",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-15T01:32:51.026000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-0b50af28846066cf7",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:57419434-F14F-4CBA-15A1-9C8668DB2F80"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-13T01:41:33.457000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-07ed54d7ba1da7c11",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-13T01:34:40.372000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-04828569589e1cc6e",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-02-05T12:22:38.863000+00:00",
+            "FullSnapshotSizeInBytes": 3589799936,
+            "SnapshotId": "snap-06d39cff0d894295e",
+            "VolumeId": "vol-0f2d69575bf15c6b5",
+            "State": "completed",
+            "StartTime": "2026-02-05T12:19:13.134000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-07-25T10:05:23.351000+00:00",
+            "FullSnapshotSizeInBytes": 3258449920,
+            "SnapshotId": "snap-0101ab1eb87de8269",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-07-25T10:01:54.175000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-0e2770a747153e9a1 from us-east-2] Created by CreateImage(i-0c3d7b6e30a216616) for ami-0e4478ea29a13bd12",
+            "VolumeSize": 30,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:1C48F816-4F84-D0A8-754E-208DD7CBD797"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-07-03T01:44:54.789000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-08534c46d20f0a6d4",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-07-03T01:35:58.056000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-0d64a56e2832baf1c",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:96B9C3EE-B169-691F-EE57-65C52AB1FF8B"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-07-01T01:35:43.317000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-0d7a235ea5e9d2022",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-07-01T01:33:09.983000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-09660caf94427f5cb",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:7DEAA6AC-8402-685E-E23B-692A2F657C8E"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-30T01:41:26.460000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-0464733b6b7100a3b",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-30T01:35:37.047000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-01bceaa38b8bb0927",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:6E997FCB-14D7-D351-C9E8-C217D554734A"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-26T01:45:09.319000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-00fe4cfebee8341cc",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-26T01:39:54.322000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-06253927995b37c92",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:FC7A3AE8-F84F-862B-B06B-24461C06640E"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-24T01:46:43.557000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-070e0fb7e69961d06",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-24T01:38:49.086000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-0ebdec360fae91723",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:134D7168-3782-CF42-23E9-978364A5A5B2"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-23T01:38:04.410000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-019f105c90b10d312",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-23T01:34:09.520000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-05a7886119dc5d770",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:80B6E4A2-8083-0C06-F3F4-D24741308C0F"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-22T01:37:40.816000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-00a5c45da70e7c0e9",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-22T01:35:21.015000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-053848ae99e522d60",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:F7711E5F-9248-4FE7-B352-691754D4185C"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-20T01:37:49.738000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-0e82bc04d9c9d00c4",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-20T01:34:01.105000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-05c1e972cdeabdfd4",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:199BFED4-0E49-71DB-A2BC-C3F6157D9124"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-19T01:37:36.934000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-0dd480393dccec6df",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-19T01:33:56.087000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-03411fa471e5424dd",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:3EAF698F-6A8F-23F5-6E4B-97324C11DE9C"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-18T01:39:48.885000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-0c781fc4cec1cbe7b",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-18T01:35:15.113000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-0f39bf0e61b3f14ba",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-01bf910b0fffef645:FACB8B48-13A9-2C82-0AD7-2E9AF2D97C49"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-14T01:34:36.255000+00:00",
+            "FullSnapshotSizeInBytes": 85895675904,
+            "SnapshotId": "snap-06b5999f10f1d000b",
+            "VolumeId": "vol-02840650a27b475f1",
+            "State": "completed",
+            "StartTime": "2026-06-14T01:32:03.791000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-01bf910b0fffef645) for ami-0a7410f9ae67effc6",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2024-01-31T06:29:42.451000+00:00",
+            "FullSnapshotSizeInBytes": 47850717184,
+            "SnapshotId": "snap-0f4c9ee1ca0ece5fe",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2024-01-31T06:28:19.671000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-03a896f6ab4715db9 from us-east-2] powerbi-desktop-prod-encryption",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-07-25T10:02:10.872000+00:00",
+            "FullSnapshotSizeInBytes": 31577866240,
+            "SnapshotId": "snap-0e4ad2b764ff5f440",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-07-25T09:54:48.806000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-0ca5bf44b0fc4b059 from us-east-2] 10-1-2023-powerbi_desktop_new_dev_Patch",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-07-25T09:59:42.268000+00:00",
+            "FullSnapshotSizeInBytes": 21841838080,
+            "SnapshotId": "snap-0482937042cdd9353",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-07-25T09:53:58.186000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-0659324d394ea061f from us-east-2] 12-1-2023-Powerbi-Desktop-prod-new_Patch",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-07-25T10:05:16.132000+00:00",
+            "FullSnapshotSizeInBytes": 3258449920,
+            "SnapshotId": "snap-0700707547d4b97ea",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-07-25T10:01:33.946000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-0e106face5000d1eb from us-east-2] test-old-snapshot",
+            "VolumeSize": 30,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-07-25T10:12:38.637000+00:00",
+            "FullSnapshotSizeInBytes": 47850717184,
+            "SnapshotId": "snap-0d07aa04964380046",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-07-25T10:02:21.969000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-03a896f6ab4715db9 from us-east-2] powerbi-desktop-prod-encryption",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2024-01-31T06:29:29.833000+00:00",
+            "FullSnapshotSizeInBytes": 47850717184,
+            "SnapshotId": "snap-061a0998d7d0a81dc",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2024-01-31T06:20:44.650000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-03a896f6ab4715db9 from us-east-2] powerbi-desktop-prod-encryption",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:0DB4E8E5-CCD4-C35B-D7DA-C310873540EE"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-07-01T04:14:03.852000+00:00",
+            "FullSnapshotSizeInBytes": 6171394048,
+            "SnapshotId": "snap-0551668abecd860d0",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-07-01T04:12:59.362000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-028147da36d01d879",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:DBF79EAE-60B7-F88D-6923-56A8DCD6FE13"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-30T04:10:22.234000+00:00",
+            "FullSnapshotSizeInBytes": 6171394048,
+            "SnapshotId": "snap-0a58e0780f0cf4bd3",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-30T04:08:30.357000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-048a9d2b4f6d8e039",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:8626E2D2-037C-8C44-EE57-E150A4FE8BF8"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-29T04:14:56.893000+00:00",
+            "FullSnapshotSizeInBytes": 6171394048,
+            "SnapshotId": "snap-05736d74506ed9346",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-29T04:13:52.119000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-068c47babc54248bc",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:E13AFE81-9CBA-1E8F-662D-8DC7496DA79D"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-26T04:13:54.472000+00:00",
+            "FullSnapshotSizeInBytes": 6171394048,
+            "SnapshotId": "snap-097f936f2beaa2537",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-26T04:12:48.516000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-0e6df6a5be21873b6",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:842E4B8C-AC86-2C69-F233-70DDECE5BC72"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-23T04:14:58.096000+00:00",
+            "FullSnapshotSizeInBytes": 6165626880,
+            "SnapshotId": "snap-04344c0d78e375f37",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-23T04:13:04.978000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-0c7a5ba71a4d2f148",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:0A947B12-F37B-1AD1-10D3-B5E310A20D87"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-21T04:08:57.750000+00:00",
+            "FullSnapshotSizeInBytes": 6165626880,
+            "SnapshotId": "snap-08663b7fb1092f8c4",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-21T04:07:56.055000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-0003bf8846329a8a4",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:2B1D094E-650F-84D6-C059-FE54C578C62B"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-19T04:11:37.292000+00:00",
+            "FullSnapshotSizeInBytes": 6165626880,
+            "SnapshotId": "snap-0a97cd9b1e75962b2",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-19T04:10:45.521000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-09fe67a5f4f75b9ab",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:693FB8C5-E65F-A6C5-D6A4-5EBBABD4FE8D"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-18T04:10:38.150000+00:00",
+            "FullSnapshotSizeInBytes": 6165626880,
+            "SnapshotId": "snap-0c396dbabf1ae3334",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-18T04:09:33.008000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-03c5576a88f73fec8",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:4F61CFE0-408B-0A7D-49FB-FB117961D399"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-16T04:12:09.314000+00:00",
+            "FullSnapshotSizeInBytes": 6165626880,
+            "SnapshotId": "snap-0c1d3adfa96a11d20",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-16T04:11:02.904000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-01ea82b49e0c0795b",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:17A1E3DF-365F-628F-6364-C8A0DF294DD5"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-15T04:13:41.419000+00:00",
+            "FullSnapshotSizeInBytes": 6165626880,
+            "SnapshotId": "snap-0e810f913eb2328c6",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-15T04:12:31.137000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-02b6448cf1d7bd6f1",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:D33577FD-67B5-373F-5D07-B9C70623F903"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-14T04:09:10.960000+00:00",
+            "FullSnapshotSizeInBytes": 6165626880,
+            "SnapshotId": "snap-0d9774a8d1840d26e",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-14T04:07:45.970000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-058d97cf40358af5c",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-10-09T11:56:49.440000+00:00",
+            "FullSnapshotSizeInBytes": 4373610496,
+            "SnapshotId": "snap-0cfb6b2a7c88eaaf6",
+            "VolumeId": "vol-0d3ebaf7a7eddc180",
+            "State": "completed",
+            "StartTime": "2025-10-09T11:52:32.857000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-08-18T14:50:05.563000+00:00",
+            "FullSnapshotSizeInBytes": 9620684800,
+            "SnapshotId": "snap-06a7087d806883da9",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-08-18T14:50:00.524000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-022c0e1fea5102008 from us-east-2] Created by CreateImage(i-028f247246836e8af) for ami-03ba0c0d7841771a5",
+            "VolumeSize": 20,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-07-25T10:00:04.385000+00:00",
+            "FullSnapshotSizeInBytes": 9620684800,
+            "SnapshotId": "snap-008d2bf93cb6fa27c",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-07-25T09:55:13.311000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-022c0e1fea5102008 from us-east-2] Created by CreateImage(i-028f247246836e8af) for ami-03ba0c0d7841771a5",
+            "VolumeSize": 20,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:34829B5C-CAAA-39F5-8AD3-B0FBDB346340"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-07-03T04:08:09.862000+00:00",
+            "FullSnapshotSizeInBytes": 6171394048,
+            "SnapshotId": "snap-04035850092cbdb9e",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-07-03T04:07:06.487000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-03c02136db36e1c14",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:CAA9A9F9-AC8D-C97F-3A0A-F81E0F9F64CC"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-07-02T04:11:01.259000+00:00",
+            "FullSnapshotSizeInBytes": 6171394048,
+            "SnapshotId": "snap-0c15b6209e02a6a80",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-07-02T04:09:53.290000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-0ade2005a876db87d",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:F7FF660D-07C0-EA79-2AE8-D50AADA7CE62"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-28T04:10:38.165000+00:00",
+            "FullSnapshotSizeInBytes": 6171394048,
+            "SnapshotId": "snap-01acdab65b64e1deb",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-28T04:09:32.918000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-0a5e02ff80d5a5c6a",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:A958E328-9E6D-F770-FB7F-060FEAF5466B"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-27T04:09:20.244000+00:00",
+            "FullSnapshotSizeInBytes": 6171394048,
+            "SnapshotId": "snap-0e9b8efb4605870b1",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-27T04:08:13.884000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-049402a0bb597e96f",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:5F0BC111-FFAC-E07A-EC62-7016520A0D5C"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-25T04:09:21.011000+00:00",
+            "FullSnapshotSizeInBytes": 6171394048,
+            "SnapshotId": "snap-0e8a0814c8e81d242",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-25T04:07:30.903000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-00425f9e7caddb44f",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:3302F44F-E90C-76B5-07B8-10755E1AC7AC"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-24T04:11:52.295000+00:00",
+            "FullSnapshotSizeInBytes": 6165626880,
+            "SnapshotId": "snap-050b9cae2314770cb",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-24T04:10:46.766000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-0337e1f759c2e306b",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:1F17C496-938B-D7F1-6B43-51E00F90E5BB"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-22T04:09:22.604000+00:00",
+            "FullSnapshotSizeInBytes": 6165626880,
+            "SnapshotId": "snap-07cddbd79c148d332",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-22T04:08:12.329000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-0cf9c683a07790dab",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:3B071732-CF1A-F8F3-5BA5-EAFE29FD7783"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-20T04:11:24.558000+00:00",
+            "FullSnapshotSizeInBytes": 6165626880,
+            "SnapshotId": "snap-0bbc318fc3bac77bf",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-20T04:10:35.017000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-0f9ccf01380f2e938",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:7589BE39-109C-F724-DCC4-929F5D98E7F1"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-17T04:11:09.171000+00:00",
+            "FullSnapshotSizeInBytes": 6165626880,
+            "SnapshotId": "snap-0ab76150e07d6f45e",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-17T04:09:44.911000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-0d4ff137b70ec9000",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "Tags": [
+                {
+                    "Key": "Backup",
+                    "Value": "Yes"
+                },
+                {
+                    "Key": "in-use",
+                    "Value": "true"
+                },
+                {
+                    "Key": "cross-region_backup",
+                    "Value": "N. California"
+                },
+                {
+                    "Key": "aws:backup:source-resource",
+                    "Value": "i-0494330f6f3703475:7A0E9798-9FFC-F520-A2D9-767A5AD452B4"
+                }
+            ],
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-06-13T04:13:20.783000+00:00",
+            "FullSnapshotSizeInBytes": 6165626880,
+            "SnapshotId": "snap-08be47659986df0a8",
+            "VolumeId": "vol-01ff6a5bd9ac7c655",
+            "State": "completed",
+            "StartTime": "2026-06-13T04:12:13.074000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0494330f6f3703475) for ami-029d72c5099df512a",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2026-01-17T02:13:28.509000+00:00",
+            "FullSnapshotSizeInBytes": 4477943808,
+            "SnapshotId": "snap-0317273277f28356a",
+            "VolumeId": "vol-0d3ebaf7a7eddc180",
+            "State": "completed",
+            "StartTime": "2026-01-17T02:11:33.149000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "Created by CreateImage(i-0e2931a958e66e74f) for ami-0796eb8ea9164a8ae",
+            "VolumeSize": 8,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-08-18T14:54:13.531000+00:00",
+            "FullSnapshotSizeInBytes": 21841838080,
+            "SnapshotId": "snap-0d70a4e63fdaf9714",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-08-18T14:48:58.151000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-0659324d394ea061f from us-east-2] 12-1-2023-Powerbi-Desktop-prod-new_Patch",
+            "VolumeSize": 150,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-08-18T14:51:40.547000+00:00",
+            "FullSnapshotSizeInBytes": 3258449920,
+            "SnapshotId": "snap-07ea2db0e8a9a8c21",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-08-18T14:51:36.326000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-0e106face5000d1eb from us-east-2] test-old-snapshot",
+            "VolumeSize": 30,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-08-18T14:55:55.196000+00:00",
+            "FullSnapshotSizeInBytes": 31577866240,
+            "SnapshotId": "snap-0370cb9ac86aaf717",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-08-18T14:49:27.166000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-0ca5bf44b0fc4b059 from us-east-2] 10-1-2023-powerbi_desktop_new_dev_Patch",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-08-18T14:40:47.049000+00:00",
+            "FullSnapshotSizeInBytes": 57409011712,
+            "SnapshotId": "snap-0e22af00ce62cf224",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-08-18T14:40:40.553000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-035184e32b7246f90 from us-east-2] Created by CreateImage(i-048a13a884164c97a) for ami-06f4f3d2cccc5741d",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        },
+        {
+            "StorageTier": "standard",
+            "TransferType": "standard",
+            "CompletionTime": "2025-07-25T09:59:11.312000+00:00",
+            "FullSnapshotSizeInBytes": 57409011712,
+            "SnapshotId": "snap-09cd6abedbc4786f3",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "StartTime": "2025-07-25T09:45:47.800000+00:00",
+            "Progress": "100%",
+            "OwnerId": "401157580704",
+            "Description": "[Copied snap-035184e32b7246f90 from us-east-2] Created by CreateImage(i-048a13a884164c97a) for ami-06f4f3d2cccc5741d",
+            "VolumeSize": 80,
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-2:401157580704:key/aef17161-c996-4c9c-9eba-bb7341fa70d1"
+        }
+    ]
+}

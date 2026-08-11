@@ -1,0 +1,292 @@
+{
+    "Applications": [
+        {
+            "ApplicationArn": "arn:aws:elasticbeanstalk:us-east-2:401157580704:application/cc-test-api",
+            "ApplicationName": "cc-test-api",
+            "DateCreated": "2022-08-09T18:02:04.498000+00:00",
+            "DateUpdated": "2022-08-09T18:02:04.498000+00:00",
+            "Versions": [
+                "Sample Application"
+            ],
+            "ConfigurationTemplates": [],
+            "ResourceLifecycleConfig": {
+                "VersionLifecycleConfig": {
+                    "MaxCountRule": {
+                        "Enabled": false,
+                        "MaxCount": 200,
+                        "DeleteSourceFromS3": false
+                    },
+                    "MaxAgeRule": {
+                        "Enabled": false,
+                        "MaxAgeInDays": 180,
+                        "DeleteSourceFromS3": false
+                    }
+                }
+            }
+        },
+        {
+            "ApplicationArn": "arn:aws:elasticbeanstalk:us-east-2:401157580704:application/ConstructionCapacity-API-prod-env",
+            "ApplicationName": "ConstructionCapacity-API-prod-env",
+            "DateCreated": "2022-08-05T15:08:53.555000+00:00",
+            "DateUpdated": "2022-08-05T15:08:53.555000+00:00",
+            "Versions": [
+                "Sample Application",
+                "construction-capacity-api-image"
+            ],
+            "ConfigurationTemplates": [],
+            "ResourceLifecycleConfig": {
+                "VersionLifecycleConfig": {
+                    "MaxCountRule": {
+                        "Enabled": false,
+                        "MaxCount": 200,
+                        "DeleteSourceFromS3": false
+                    },
+                    "MaxAgeRule": {
+                        "Enabled": false,
+                        "MaxAgeInDays": 180,
+                        "DeleteSourceFromS3": false
+                    }
+                }
+            }
+        },
+        {
+            "ApplicationArn": "arn:aws:elasticbeanstalk:us-east-2:401157580704:application/asdfhjkl",
+            "ApplicationName": "asdfhjkl",
+            "DateCreated": "2022-08-05T13:34:49.183000+00:00",
+            "DateUpdated": "2022-08-05T13:34:49.183000+00:00",
+            "ConfigurationTemplates": [],
+            "ResourceLifecycleConfig": {
+                "VersionLifecycleConfig": {
+                    "MaxCountRule": {
+                        "Enabled": false,
+                        "MaxCount": 200,
+                        "DeleteSourceFromS3": false
+                    },
+                    "MaxAgeRule": {
+                        "Enabled": false,
+                        "MaxAgeInDays": 180,
+                        "DeleteSourceFromS3": false
+                    }
+                }
+            }
+        },
+        {
+            "ApplicationArn": "arn:aws:elasticbeanstalk:us-east-2:401157580704:application/prod-construction-capacity-api",
+            "ApplicationName": "prod-construction-capacity-api",
+            "DateCreated": "2022-08-05T13:18:07.042000+00:00",
+            "DateUpdated": "2022-08-05T13:18:07.042000+00:00",
+            "Versions": [
+                "Sample Application",
+                "construction-capacity-api-image"
+            ],
+            "ConfigurationTemplates": [],
+            "ResourceLifecycleConfig": {
+                "VersionLifecycleConfig": {
+                    "MaxCountRule": {
+                        "Enabled": false,
+                        "MaxCount": 200,
+                        "DeleteSourceFromS3": false
+                    },
+                    "MaxAgeRule": {
+                        "Enabled": false,
+                        "MaxAgeInDays": 180,
+                        "DeleteSourceFromS3": false
+                    }
+                }
+            }
+        },
+        {
+            "ApplicationArn": "arn:aws:elasticbeanstalk:us-east-2:401157580704:application/Construction-Capacity-prod-api",
+            "ApplicationName": "Construction-Capacity-prod-api",
+            "DateCreated": "2022-08-05T10:33:01.285000+00:00",
+            "DateUpdated": "2022-08-05T10:33:01.285000+00:00",
+            "Versions": [
+                "Sample Application"
+            ],
+            "ConfigurationTemplates": [],
+            "ResourceLifecycleConfig": {
+                "VersionLifecycleConfig": {
+                    "MaxCountRule": {
+                        "Enabled": false,
+                        "MaxCount": 200,
+                        "DeleteSourceFromS3": false
+                    },
+                    "MaxAgeRule": {
+                        "Enabled": false,
+                        "MaxAgeInDays": 180,
+                        "DeleteSourceFromS3": false
+                    }
+                }
+            }
+        },
+        {
+            "ApplicationArn": "arn:aws:elasticbeanstalk:us-east-2:401157580704:application/Construction-Capacity-API-production",
+            "ApplicationName": "Construction-Capacity-API-production",
+            "DateCreated": "2022-08-05T08:35:18.325000+00:00",
+            "DateUpdated": "2022-08-05T08:35:18.325000+00:00",
+            "Versions": [
+                "Sample Application",
+                "construction-capacity-api-image"
+            ],
+            "ConfigurationTemplates": [],
+            "ResourceLifecycleConfig": {
+                "VersionLifecycleConfig": {
+                    "MaxCountRule": {
+                        "Enabled": false,
+                        "MaxCount": 200,
+                        "DeleteSourceFromS3": false
+                    },
+                    "MaxAgeRule": {
+                        "Enabled": false,
+                        "MaxAgeInDays": 180,
+                        "DeleteSourceFromS3": false
+                    }
+                }
+            }
+        },
+        {
+            "ApplicationArn": "arn:aws:elasticbeanstalk:us-east-2:401157580704:application/Construction-Capacity-API-Prod",
+            "ApplicationName": "Construction-Capacity-API-Prod",
+            "Description": "Construction-Capacity-API Production application",
+            "DateCreated": "2022-01-12T13:13:55.318000+00:00",
+            "DateUpdated": "2022-01-12T13:13:55.318000+00:00",
+            "Versions": [
+                "construction-capacity-api-image",
+                "Sample Application"
+            ],
+            "ConfigurationTemplates": [],
+            "ResourceLifecycleConfig": {
+                "VersionLifecycleConfig": {
+                    "MaxCountRule": {
+                        "Enabled": false,
+                        "MaxCount": 200,
+                        "DeleteSourceFromS3": false
+                    },
+                    "MaxAgeRule": {
+                        "Enabled": false,
+                        "MaxAgeInDays": 180,
+                        "DeleteSourceFromS3": false
+                    }
+                }
+            }
+        },
+        {
+            "ApplicationArn": "arn:aws:elasticbeanstalk:us-east-2:401157580704:application/getting-started-app",
+            "ApplicationName": "getting-started-app",
+            "DateCreated": "2022-01-04T09:03:15.947000+00:00",
+            "DateUpdated": "2022-01-04T09:03:15.947000+00:00",
+            "ConfigurationTemplates": [],
+            "ResourceLifecycleConfig": {
+                "VersionLifecycleConfig": {
+                    "MaxCountRule": {
+                        "Enabled": false,
+                        "MaxCount": 200,
+                        "DeleteSourceFromS3": false
+                    },
+                    "MaxAgeRule": {
+                        "Enabled": false,
+                        "MaxAgeInDays": 180,
+                        "DeleteSourceFromS3": false
+                    }
+                }
+            }
+        },
+        {
+            "ApplicationArn": "arn:aws:elasticbeanstalk:us-east-2:401157580704:application/test1-tmhighalnd-dev",
+            "ApplicationName": "test1-tmhighalnd-dev",
+            "DateCreated": "2021-12-30T11:56:28.550000+00:00",
+            "DateUpdated": "2021-12-30T11:56:28.550000+00:00",
+            "Versions": [
+                "Sample Application"
+            ],
+            "ConfigurationTemplates": [],
+            "ResourceLifecycleConfig": {
+                "VersionLifecycleConfig": {
+                    "MaxCountRule": {
+                        "Enabled": false,
+                        "MaxCount": 200,
+                        "DeleteSourceFromS3": false
+                    },
+                    "MaxAgeRule": {
+                        "Enabled": false,
+                        "MaxAgeInDays": 180,
+                        "DeleteSourceFromS3": false
+                    }
+                }
+            }
+        },
+        {
+            "ApplicationArn": "arn:aws:elasticbeanstalk:us-east-2:401157580704:application/ConstructionCapacity-API-dev",
+            "ApplicationName": "ConstructionCapacity-API-dev",
+            "DateCreated": "2021-12-29T15:20:41.043000+00:00",
+            "DateUpdated": "2021-12-29T15:20:41.043000+00:00",
+            "ConfigurationTemplates": [],
+            "ResourceLifecycleConfig": {
+                "VersionLifecycleConfig": {
+                    "MaxCountRule": {
+                        "Enabled": false,
+                        "MaxCount": 200,
+                        "DeleteSourceFromS3": false
+                    },
+                    "MaxAgeRule": {
+                        "Enabled": false,
+                        "MaxAgeInDays": 180,
+                        "DeleteSourceFromS3": false
+                    }
+                }
+            }
+        },
+        {
+            "ApplicationArn": "arn:aws:elasticbeanstalk:us-east-2:401157580704:application/Construction-Capacity-API-Dev",
+            "ApplicationName": "Construction-Capacity-API-Dev",
+            "DateCreated": "2021-12-29T11:13:56.302000+00:00",
+            "DateUpdated": "2021-12-29T11:13:56.302000+00:00",
+            "Versions": [
+                "Sample Application",
+                "construction-capacity-api-image"
+            ],
+            "ConfigurationTemplates": [],
+            "ResourceLifecycleConfig": {
+                "VersionLifecycleConfig": {
+                    "MaxCountRule": {
+                        "Enabled": false,
+                        "MaxCount": 200,
+                        "DeleteSourceFromS3": false
+                    },
+                    "MaxAgeRule": {
+                        "Enabled": false,
+                        "MaxAgeInDays": 180,
+                        "DeleteSourceFromS3": false
+                    }
+                }
+            }
+        },
+        {
+            "ApplicationArn": "arn:aws:elasticbeanstalk:us-east-2:401157580704:application/constructioncapacityapi",
+            "ApplicationName": "constructioncapacityapi",
+            "DateCreated": "2021-12-27T11:50:24.161000+00:00",
+            "DateUpdated": "2021-12-27T11:50:24.161000+00:00",
+            "Versions": [
+                "constructioncapacity-api-image-1"
+            ],
+            "ConfigurationTemplates": [
+                "constructioncapacity-api-dev"
+            ],
+            "ResourceLifecycleConfig": {
+                "ServiceRole": "arn:aws:iam::401157580704:role/aws-elasticbeanstalk-ec2-role",
+                "VersionLifecycleConfig": {
+                    "MaxCountRule": {
+                        "Enabled": true,
+                        "MaxCount": 200,
+                        "DeleteSourceFromS3": false
+                    },
+                    "MaxAgeRule": {
+                        "Enabled": false,
+                        "MaxAgeInDays": 180,
+                        "DeleteSourceFromS3": false
+                    }
+                }
+            }
+        }
+    ]
+}

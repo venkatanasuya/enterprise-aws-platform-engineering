@@ -1,0 +1,29 @@
+name: OIDC Claims Debug
+
+on:
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  claims:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const token = await core.getIDToken('sts.amazonaws.com');
+            const payload = JSON.parse(
+              Buffer.from(token.split('.')[1], 'base64').toString()
+            );
+            console.log(JSON.stringify({
+              iss: payload.iss,
+              aud: payload.aud,
+              repository: payload.repository,
+              repository_owner: payload.repository_owner,
+              event_name: payload.event_name,
+              ref: payload.ref,
+              sub: payload.sub
+            }, null, 2));

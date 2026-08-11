@@ -1,0 +1,145 @@
+{
+    "InstanceProfiles": [
+        {
+            "Path": "/",
+            "InstanceProfileName": "AmazonSSMRoleForInstancesQuickSetup",
+            "InstanceProfileId": "AIPAV2ZW246QOAGOIU3CT",
+            "Arn": "arn:aws:iam::401157580704:instance-profile/AmazonSSMRoleForInstancesQuickSetup",
+            "CreateDate": "2023-02-15T07:22:00+00:00",
+            "Roles": [
+                {
+                    "Path": "/",
+                    "RoleName": "AmazonSSMRoleForInstancesQuickSetup",
+                    "RoleId": "AROAV2ZW246QDHGMLOKLV",
+                    "Arn": "arn:aws:iam::401157580704:role/AmazonSSMRoleForInstancesQuickSetup",
+                    "CreateDate": "2023-02-15T07:21:36+00:00",
+                    "AssumeRolePolicyDocument": {
+                        "Version": "2012-10-17",
+                        "Statement": [
+                            {
+                                "Effect": "Allow",
+                                "Principal": {
+                                    "Service": "ec2.amazonaws.com"
+                                },
+                                "Action": "sts:AssumeRole"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "Path": "/",
+            "InstanceProfileName": "aws-elasticbeanstalk-ec2-role",
+            "InstanceProfileId": "AIPAV2ZW246QBUQDYTTLA",
+            "Arn": "arn:aws:iam::401157580704:instance-profile/aws-elasticbeanstalk-ec2-role",
+            "CreateDate": "2021-12-27T16:33:03+00:00",
+            "Roles": [
+                {
+                    "Path": "/",
+                    "RoleName": "aws-elasticbeanstalk-ec2-role",
+                    "RoleId": "AROAV2ZW246QBFDALQAO4",
+                    "Arn": "arn:aws:iam::401157580704:role/aws-elasticbeanstalk-ec2-role",
+                    "CreateDate": "2021-12-27T16:33:03+00:00",
+                    "AssumeRolePolicyDocument": {
+                        "Version": "2008-10-17",
+                        "Statement": [
+                            {
+                                "Effect": "Allow",
+                                "Principal": {
+                                    "Service": "ec2.amazonaws.com"
+                                },
+                                "Action": "sts:AssumeRole"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "Path": "/",
+            "InstanceProfileName": "intact-highland-dev-developer",
+            "InstanceProfileId": "AIPAV2ZW246QFBOABNGN3",
+            "Arn": "arn:aws:iam::401157580704:instance-profile/intact-highland-dev-developer",
+            "CreateDate": "2022-11-07T10:05:26+00:00",
+            "Roles": [
+                {
+                    "Path": "/",
+                    "RoleName": "intact-highland-dev-developer",
+                    "RoleId": "AROAV2ZW246QJ6AM2GV6A",
+                    "Arn": "arn:aws:iam::401157580704:role/intact-highland-dev-developer",
+                    "CreateDate": "2022-11-07T10:05:24+00:00",
+                    "AssumeRolePolicyDocument": {
+                        "Version": "2012-10-17",
+                        "Statement": [
+                            {
+                                "Sid": "Assumerole",
+                                "Effect": "Allow",
+                                "Principal": {
+                                    "AWS": "arn:aws:iam::401157580704:root"
+                                },
+                                "Action": "sts:AssumeRole"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "Path": "/",
+            "InstanceProfileName": "Intact-SecurityAudit-Role",
+            "InstanceProfileId": "AIPAV2ZW246QESZOB63KD",
+            "Arn": "arn:aws:iam::401157580704:instance-profile/Intact-SecurityAudit-Role",
+            "CreateDate": "2025-10-23T01:10:00+00:00",
+            "Roles": [
+                {
+                    "Path": "/",
+                    "RoleName": "Intact-SecurityAudit-Role",
+                    "RoleId": "AROAV2ZW246QGW4BZMADW",
+                    "Arn": "arn:aws:iam::401157580704:role/Intact-SecurityAudit-Role",
+                    "CreateDate": "2025-10-23T01:10:00+00:00",
+                    "AssumeRolePolicyDocument": {
+                        "Version": "2012-10-17",
+                        "Statement": [
+                            {
+                                "Effect": "Allow",
+                                "Principal": {
+                                    "Service": "ec2.amazonaws.com"
+                                },
+                                "Action": "sts:AssumeRole"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "Path": "/",
+            "InstanceProfileName": "intact-ssm-ec2-role",
+            "InstanceProfileId": "AIPAV2ZW246QDWFYSINUF",
+            "Arn": "arn:aws:iam::401157580704:instance-profile/intact-ssm-ec2-role",
+            "CreateDate": "2022-10-31T09:04:11+00:00",
+            "Roles": [
+                {
+                    "Path": "/",
+                    "RoleName": "intact-ssm-ec2-role",
+                    "RoleId": "AROAV2ZW246QO6M4P2Z5G",
+                    "Arn": "arn:aws:iam::401157580704:role/intact-ssm-ec2-role",
+                    "CreateDate": "2022-10-31T09:04:09+00:00",
+                    "AssumeRolePolicyDocument": {
+                        "Version": "2012-10-17",
+                        "Statement": [
+                            {
+                                "Effect": "Allow",
+                                "Principal": {
+                                    "Service": "ec2.amazonaws.com"
+                                },
+                                "Action": "sts:AssumeRole"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

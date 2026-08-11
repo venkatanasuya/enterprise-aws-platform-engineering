@@ -1,0 +1,116 @@
+{
+    "DBSubnetGroups": [
+        {
+            "DBSubnetGroupName": "constructioncapacityapi-dev-subnetgroup",
+            "DBSubnetGroupDescription": "constructioncapacityapi-dev-subnetgroup",
+            "VpcId": "vpc-056be321b2abea9e8",
+            "SubnetGroupStatus": "Complete",
+            "Subnets": [
+                {
+                    "SubnetIdentifier": "subnet-0f50257b665d9cc1b",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-2a"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                },
+                {
+                    "SubnetIdentifier": "subnet-0bbffd1611e131f53",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-2b"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                }
+            ],
+            "DBSubnetGroupArn": "arn:aws:rds:us-east-2:401157580704:subgrp:constructioncapacityapi-dev-subnetgroup",
+            "SupportedNetworkTypes": [
+                "IPV4"
+            ]
+        },
+        {
+            "DBSubnetGroupName": "constructioncapacityapi-prod-subnetgroup",
+            "DBSubnetGroupDescription": "Datbase subnet group for Prod",
+            "VpcId": "vpc-0773253bc4daca414",
+            "SubnetGroupStatus": "Complete",
+            "Subnets": [
+                {
+                    "SubnetIdentifier": "subnet-0f46b98038512ea32",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-2a"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                },
+                {
+                    "SubnetIdentifier": "subnet-0af3fca3903c44b7e",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-2b"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                }
+            ],
+            "DBSubnetGroupArn": "arn:aws:rds:us-east-2:401157580704:subgrp:constructioncapacityapi-prod-subnetgroup",
+            "SupportedNetworkTypes": [
+                "IPV4"
+            ]
+        },
+        {
+            "DBSubnetGroupName": "sapiens-data-rpl-db-dev-subnet-group",
+            "DBSubnetGroupDescription": "This subnet group contains subnets in dev env for sapiens-data-rpl-db",
+            "VpcId": "vpc-056be321b2abea9e8",
+            "SubnetGroupStatus": "Complete",
+            "Subnets": [
+                {
+                    "SubnetIdentifier": "subnet-04f05f3f9c3d2ccd7",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-2a"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                },
+                {
+                    "SubnetIdentifier": "subnet-0bcfe71370b0a0bd5",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-2b"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                }
+            ],
+            "DBSubnetGroupArn": "arn:aws:rds:us-east-2:401157580704:subgrp:sapiens-data-rpl-db-dev-subnet-group",
+            "SupportedNetworkTypes": [
+                "IPV4"
+            ]
+        },
+        {
+            "DBSubnetGroupName": "sapiens-data-rpl-db-prod-subnet-group",
+            "DBSubnetGroupDescription": "This subnet group contains subnets in prod env for sapiens-data-rpl-db",
+            "VpcId": "vpc-0773253bc4daca414",
+            "SubnetGroupStatus": "Complete",
+            "Subnets": [
+                {
+                    "SubnetIdentifier": "subnet-0c69c5d9aef2f9d5a",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-2b"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                },
+                {
+                    "SubnetIdentifier": "subnet-091ec4941a1329ba6",
+                    "SubnetAvailabilityZone": {
+                        "Name": "us-east-2a"
+                    },
+                    "SubnetOutpost": {},
+                    "SubnetStatus": "Active"
+                }
+            ],
+            "DBSubnetGroupArn": "arn:aws:rds:us-east-2:401157580704:subgrp:sapiens-data-rpl-db-prod-subnet-group",
+            "SupportedNetworkTypes": [
+                "IPV4"
+            ]
+        }
+    ]
+}

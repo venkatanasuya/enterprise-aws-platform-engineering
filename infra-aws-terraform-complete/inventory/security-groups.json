@@ -1,0 +1,1252 @@
+{
+    "SecurityGroups": [
+        {
+            "GroupId": "sg-0a3e289da76de0353",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "environment",
+                    "Value": "prod"
+                }
+            ],
+            "VpcId": "vpc-0773253bc4daca414",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0a3e289da76de0353",
+            "OwnerId": "401157580704",
+            "GroupName": "Prod-vpc-internal-traffic",
+            "Description": "Allow internal traffic in Prod-vpc",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "Internal-traffic",
+                            "CidrIp": "10.1.0.0/16"
+                        },
+                        {
+                            "Description": "Intact-on-prem",
+                            "CidrIp": "10.2.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0596e9366f2299407",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "pgAdmin security"
+                }
+            ],
+            "VpcId": "vpc-056be321b2abea9e8",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0596e9366f2299407",
+            "OwnerId": "401157580704",
+            "GroupName": "Linux-bastion",
+            "Description": "launch-wizard-1 created 2021-12-30T11:28:02.811+05:30",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 22,
+                    "ToPort": 22,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.2.0.0/16"
+                        },
+                        {
+                            "Description": "Citrix ws natip",
+                            "CidrIp": "205.134.132.1/32"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "icmp",
+                    "FromPort": -1,
+                    "ToPort": -1,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.2.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0be9a2b7d42034fac",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "sapiens-data-rpl-db-dev-sg"
+                }
+            ],
+            "VpcId": "vpc-056be321b2abea9e8",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0be9a2b7d42034fac",
+            "OwnerId": "401157580704",
+            "GroupName": "sapiens-data-rpl-db-dev-sg",
+            "Description": "SG for sapiens-data-rpl-db-dev",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 5432,
+                    "ToPort": 5432,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "Intact-VPN",
+                            "CidrIp": "10.2.0.0/16"
+                        },
+                        {
+                            "Description": "Dev-VPC",
+                            "CidrIp": "10.0.0.0/16"
+                        },
+                        {
+                            "Description": "Sapiens-VPN",
+                            "CidrIp": "10.93.151.110/32"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0997987b6834efa73",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "constructioncapacityapi-ebs-security\t"
+                }
+            ],
+            "VpcId": "vpc-056be321b2abea9e8",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0997987b6834efa73",
+            "OwnerId": "401157580704",
+            "GroupName": "constructioncapacityapi-ebs-security",
+            "Description": "constructioncapacityapi-ebs-security",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 80,
+                    "ToPort": 80,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.0.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 443,
+                    "ToPort": 443,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.0.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0897b83200c529324",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "sapiens-data-rpl-db-prod-sg"
+                }
+            ],
+            "VpcId": "vpc-0773253bc4daca414",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0897b83200c529324",
+            "OwnerId": "401157580704",
+            "GroupName": "sapiens-data-rpl-db-prod-sg",
+            "Description": "SG for sapiens-data-rpl-db-prod",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 5432,
+                    "ToPort": 5432,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "Sapiens-VPN",
+                            "CidrIp": "10.93.151.110/32"
+                        },
+                        {
+                            "Description": "prod-VPC",
+                            "CidrIp": "10.1.0.0/16"
+                        },
+                        {
+                            "Description": "Intact-VPN",
+                            "CidrIp": "10.2.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0b6a8073540c1cb9a",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-056be321b2abea9e8",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0b6a8073540c1cb9a",
+            "OwnerId": "401157580704",
+            "GroupName": "Microsoft Windows Server 2019 Base-2022-02-10-AutogenByAWSMP-1",
+            "Description": "This security group was generated by AWS Marketplace and is based on recommended settings for Microsoft Windows Server 2019 Base version 2022.02.10 provided by Amazon Web Services",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "Intact-vpn",
+                            "CidrIp": "10.2.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3389,
+                    "ToPort": 3389,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.1.0.0/16"
+                        },
+                        {
+                            "CidrIp": "10.0.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0985bc300f673015a",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Created By",
+                    "Value": "Liju"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "Krishnachandran"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-2:401157580704:stack/awseb-e-t2wrbbxesn-stack/1f261940-180f-11ed-ba75-06dae90ac7d2"
+                },
+                {
+                    "Key": "elasticbeanstalk:environment-id",
+                    "Value": "e-t2wrbbxesn"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "Prodconstructioncapacityapi-env"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "AWSEBSecurityGroup"
+                },
+                {
+                    "Key": "elasticbeanstalk:environment-name",
+                    "Value": "Prodconstructioncapacityapi-env"
+                },
+                {
+                    "Key": "Env",
+                    "Value": "Prod env"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "awseb-e-t2wrbbxesn-stack"
+                }
+            ],
+            "VpcId": "vpc-0773253bc4daca414",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0985bc300f673015a",
+            "OwnerId": "401157580704",
+            "GroupName": "awseb-e-t2wrbbxesn-stack-AWSEBSecurityGroup-17Z98MKYXWDOA",
+            "Description": "VPC Security Group",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 80,
+                    "ToPort": 80,
+                    "UserIdGroupPairs": [
+                        {
+                            "UserId": "401157580704",
+                            "GroupId": "sg-0f5616250eb4610eb"
+                        }
+                    ],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.1.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 443,
+                    "ToPort": 443,
+                    "UserIdGroupPairs": [
+                        {
+                            "Description": "LB security group",
+                            "UserId": "401157580704",
+                            "GroupId": "sg-0f5616250eb4610eb"
+                        }
+                    ],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.1.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0da6cc2bc59441b15",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-056be321b2abea9e8",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0da6cc2bc59441b15",
+            "OwnerId": "401157580704",
+            "GroupName": "Microsoft Windows Server 2019 Base-2022-02-10-AutogenByAWSMP-2",
+            "Description": "This security group was generated by AWS Marketplace and is based on recommended settings for Microsoft Windows Server 2019 Base version 2022.02.10 provided by Amazon Web Services",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 5432,
+                    "ToPort": 5432,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.0.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "on-prem",
+                            "CidrIp": "10.2.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3389,
+                    "ToPort": 3389,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.0.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-02a5358cd707eee5c",
+            "IpPermissionsEgress": [],
+            "VpcId": "vpc-056be321b2abea9e8",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-02a5358cd707eee5c",
+            "OwnerId": "401157580704",
+            "GroupName": "default",
+            "Description": "default VPC security group",
+            "IpPermissions": []
+        },
+        {
+            "GroupId": "sg-0e9b70067d7334c56",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "constructioncapacityapi-rds-dev"
+                }
+            ],
+            "VpcId": "vpc-056be321b2abea9e8",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0e9b70067d7334c56",
+            "OwnerId": "401157580704",
+            "GroupName": "constructioncapacity-rds-dev",
+            "Description": "Created by RDS management console",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 5432,
+                    "ToPort": 5432,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "dev-vpc",
+                            "CidrIp": "10.0.0.0/16"
+                        },
+                        {
+                            "Description": "intact-vpn",
+                            "CidrIp": "10.2.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-080f28d7569af1b80",
+            "IpPermissionsEgress": [],
+            "VpcId": "vpc-0773253bc4daca414",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-080f28d7569af1b80",
+            "OwnerId": "401157580704",
+            "GroupName": "default",
+            "Description": "default VPC security group",
+            "IpPermissions": []
+        },
+        {
+            "GroupId": "sg-04815e9ede6f75abc",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "intact-dev-glue-sg"
+                }
+            ],
+            "VpcId": "vpc-056be321b2abea9e8",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-04815e9ede6f75abc",
+            "OwnerId": "401157580704",
+            "GroupName": "intact-dev-glue-sg",
+            "Description": "intact-dev-glue-sg",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 5432,
+                    "ToPort": 5432,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "Test",
+                            "CidrIp": "10.0.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [
+                        {
+                            "UserId": "401157580704",
+                            "GroupId": "sg-04815e9ede6f75abc"
+                        }
+                    ],
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0ae915b71b9ca13b5",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-0773253bc4daca414",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0ae915b71b9ca13b5",
+            "OwnerId": "401157580704",
+            "GroupName": "intact-prod-glue-sg",
+            "Description": "Allow Traffic to security group",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 5432,
+                    "ToPort": 5432,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.1.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [
+                        {
+                            "UserId": "401157580704",
+                            "GroupId": "sg-0ae915b71b9ca13b5"
+                        }
+                    ],
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0ed15004f60fe5ddf",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-0773253bc4daca414",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0ed15004f60fe5ddf",
+            "OwnerId": "401157580704",
+            "GroupName": "Construction-job-trigger-prod-lambda-SG",
+            "Description": "This sg is used by Construction-job-trigger-prod-lambda",
+            "IpPermissions": []
+        },
+        {
+            "GroupId": "sg-0df12569ecaa6569a",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-056be321b2abea9e8",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0df12569ecaa6569a",
+            "OwnerId": "401157580704",
+            "GroupName": "bastion-windows",
+            "Description": "launch-wizard-1 created 2021-12-29T13:43:07.321+05:30",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3389,
+                    "ToPort": 3389,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.0.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-08389ac9ffe6a06f7",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "environment",
+                    "Value": "Prod"
+                },
+                {
+                    "Key": "Production",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "intact-allow-traffic-to-prod-vpc"
+                },
+                {
+                    "Key": "application-name",
+                    "Value": "Capacity-datamart"
+                },
+                {
+                    "Key": "Traffic",
+                    "Value": "Prod"
+                }
+            ],
+            "VpcId": "vpc-0773253bc4daca414",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-08389ac9ffe6a06f7",
+            "OwnerId": "401157580704",
+            "GroupName": "intact-allow-traffic-to-prod-vpc",
+            "Description": "Allows Traffic from Intact environment",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 22,
+                    "ToPort": 22,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "208.127.105.118/32"
+                        },
+                        {
+                            "CidrIp": "208.127.247.230/32"
+                        },
+                        {
+                            "CidrIp": "205.134.132.1/32"
+                        },
+                        {
+                            "CidrIp": "208.127.227.178/32"
+                        },
+                        {
+                            "CidrIp": "165.1.146.64/32"
+                        },
+                        {
+                            "CidrIp": "205.134.158.2/32"
+                        },
+                        {
+                            "CidrIp": "208.127.74.80/32"
+                        },
+                        {
+                            "CidrIp": "208.127.105.123/32"
+                        },
+                        {
+                            "CidrIp": "137.83.222.122/32"
+                        },
+                        {
+                            "CidrIp": "208.127.227.157/32"
+                        },
+                        {
+                            "CidrIp": "137.83.222.109/32"
+                        },
+                        {
+                            "CidrIp": "208.127.227.158/32"
+                        },
+                        {
+                            "CidrIp": "208.127.108.168/32"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3389,
+                    "ToPort": 3389,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.2.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-062b09810708db6ef",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "constructioncapacity-rds-prod"
+                }
+            ],
+            "VpcId": "vpc-0773253bc4daca414",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-062b09810708db6ef",
+            "OwnerId": "401157580704",
+            "GroupName": "constructioncapacity-rds-prod",
+            "Description": "Created by RDS management console",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 0,
+                    "ToPort": 65535,
+                    "UserIdGroupPairs": [
+                        {
+                            "UserId": "401157580704",
+                            "GroupId": "sg-062b09810708db6ef"
+                        }
+                    ],
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 5432,
+                    "ToPort": 5432,
+                    "UserIdGroupPairs": [
+                        {
+                            "Description": "pgadmin-dev",
+                            "GroupId": "sg-0596e9366f2299407",
+                            "VpcId": "vpc-056be321b2abea9e8"
+                        },
+                        {
+                            "Description": "Construction-PowerBI-Desktop",
+                            "GroupId": "sg-0da6cc2bc59441b15",
+                            "VpcId": "vpc-056be321b2abea9e8"
+                        },
+                        {
+                            "GroupId": "sg-0105905ad93a56e72",
+                            "VpcId": "vpc-056be321b2abea9e8"
+                        },
+                        {
+                            "Description": "Prodconstructioncapacityapi-env",
+                            "UserId": "401157580704",
+                            "GroupId": "sg-0985bc300f673015a"
+                        },
+                        {
+                            "Description": "bastion-prod",
+                            "UserId": "401157580704",
+                            "GroupId": "sg-0374bef6b6effcd1c"
+                        }
+                    ],
+                    "IpRanges": [
+                        {
+                            "Description": "Construction-PowerBI-Desktop",
+                            "CidrIp": "10.0.0.105/32"
+                        },
+                        {
+                            "Description": "VPC",
+                            "CidrIp": "10.1.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0374bef6b6effcd1c",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "name",
+                    "Value": "linux-bastion-prod"
+                },
+                {
+                    "Key": "environment",
+                    "Value": "Prod"
+                }
+            ],
+            "VpcId": "vpc-0773253bc4daca414",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0374bef6b6effcd1c",
+            "OwnerId": "401157580704",
+            "GroupName": "Linux-bastion-prod-vpc",
+            "Description": "Allow SSH access to Linux bastion host in Prod VPC",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 22,
+                    "ToPort": 22,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.2.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 3389,
+                    "ToPort": 3389,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.2.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0a91845af00af000d",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "awseb-e-rf8gah3j8s-stack"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "AWSEBSecurityGroup"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-2:401157580704:stack/awseb-e-rf8gah3j8s-stack/065e95a0-6968-11ec-98c9-0668cf9a3434"
+                },
+                {
+                    "Key": "elasticbeanstalk:environment-name",
+                    "Value": "construction-capacity-api-dev-env"
+                },
+                {
+                    "Key": "elasticbeanstalk:environment-id",
+                    "Value": "e-rf8gah3j8s"
+                },
+                {
+                    "Key": "environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "construction-capacity-api-dev-env"
+                },
+                {
+                    "Key": "AppManagerCFNStackKey",
+                    "Value": "arn:aws:cloudformation:us-east-2:401157580704:stack/awseb-e-rf8gah3j8s-stack/065e95a0-6968-11ec-98c9-0668cf9a3434"
+                }
+            ],
+            "VpcId": "vpc-056be321b2abea9e8",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0a91845af00af000d",
+            "OwnerId": "401157580704",
+            "GroupName": "awseb-e-rf8gah3j8s-stack-AWSEBSecurityGroup-53U52XNKRAL6",
+            "Description": "VPC Security Group",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 80,
+                    "ToPort": 80,
+                    "UserIdGroupPairs": [
+                        {
+                            "Description": "LB Security Group",
+                            "UserId": "401157580704",
+                            "GroupId": "sg-0721a3e0f69333439"
+                        }
+                    ],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.0.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 22,
+                    "ToPort": 22,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.0.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 443,
+                    "ToPort": 443,
+                    "UserIdGroupPairs": [
+                        {
+                            "Description": "LB-Security Group",
+                            "UserId": "401157580704",
+                            "GroupId": "sg-0721a3e0f69333439"
+                        }
+                    ],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.0.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0721a3e0f69333439",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 80,
+                    "ToPort": 80,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 443,
+                    "ToPort": 443,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "elasticbeanstalk:environment-id",
+                    "Value": "e-rf8gah3j8s"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "construction-capacity-api-dev-env"
+                },
+                {
+                    "Key": "AppManagerCFNStackKey",
+                    "Value": "arn:aws:cloudformation:us-east-2:401157580704:stack/awseb-e-rf8gah3j8s-stack/065e95a0-6968-11ec-98c9-0668cf9a3434"
+                },
+                {
+                    "Key": "environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "AWSEBLoadBalancerSecurityGroup"
+                },
+                {
+                    "Key": "elasticbeanstalk:environment-name",
+                    "Value": "construction-capacity-api-dev-env"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-2:401157580704:stack/awseb-e-rf8gah3j8s-stack/065e95a0-6968-11ec-98c9-0668cf9a3434"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "awseb-e-rf8gah3j8s-stack"
+                }
+            ],
+            "VpcId": "vpc-056be321b2abea9e8",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0721a3e0f69333439",
+            "OwnerId": "401157580704",
+            "GroupName": "awseb-e-rf8gah3j8s-stack-AWSEBLoadBalancerSecurityGroup-1KBHTW9N3VJH2",
+            "Description": "Load Balancer Security Group",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 80,
+                    "ToPort": 80,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.0.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 443,
+                    "ToPort": 443,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "10.0.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0f5616250eb4610eb",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 80,
+                    "ToPort": 80,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "aws:cloudformation:logical-id",
+                    "Value": "AWSEBLoadBalancerSecurityGroup"
+                },
+                {
+                    "Key": "elasticbeanstalk:environment-id",
+                    "Value": "e-t2wrbbxesn"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-id",
+                    "Value": "arn:aws:cloudformation:us-east-2:401157580704:stack/awseb-e-t2wrbbxesn-stack/1f261940-180f-11ed-ba75-06dae90ac7d2"
+                },
+                {
+                    "Key": "Env",
+                    "Value": "Prod env"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "Krishnachandran"
+                },
+                {
+                    "Key": "aws:cloudformation:stack-name",
+                    "Value": "awseb-e-t2wrbbxesn-stack"
+                },
+                {
+                    "Key": "elasticbeanstalk:environment-name",
+                    "Value": "Prodconstructioncapacityapi-env"
+                },
+                {
+                    "Key": "Created By",
+                    "Value": "Liju"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "Prodconstructioncapacityapi-env"
+                }
+            ],
+            "VpcId": "vpc-0773253bc4daca414",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-2:401157580704:security-group/sg-0f5616250eb4610eb",
+            "OwnerId": "401157580704",
+            "GroupName": "awseb-e-t2wrbbxesn-stack-AWSEBLoadBalancerSecurityGroup-1SZ19IEBCX5Q8",
+            "Description": "Load Balancer Security Group",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 80,
+                    "ToPort": 80,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "Prod-vpc",
+                            "CidrIp": "10.1.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 443,
+                    "ToPort": 443,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "Prod-vpc",
+                            "CidrIp": "10.1.0.0/16"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        }
+    ]
+}

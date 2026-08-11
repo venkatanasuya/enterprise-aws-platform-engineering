@@ -1,0 +1,27 @@
+{
+  "repository": "enterprise-aws-platform-engineering-reference",
+  "files": 70,
+  "source_basis": [
+    "AWS Landing Zone/AFT folder-tree artifacts",
+    "GAIP architecture reference",
+    "Terraform/S3/KMS/CloudTrail snippets",
+    "GitHub Actions OIDC workflow",
+    "Docker/ECR workflow",
+    "Route 53 Resolver analysis",
+    "AWS Secrets Manager guide",
+    "EC2 migration/inventory work"
+  ],
+  "status": {
+    "completed_patterns": [
+      "Terraform and AWS foundation",
+      "GitHub OIDC and CI/CD",
+      "ECR/JFrog patterns",
+      "Databricks DNS/networking",
+      "Secrets Manager"
+    ],
+    "in_progress": [
+      "EC2 migration/rehydration",
+      "Infrastructure inventory and migration planning"
+    ]
+  }
+}
